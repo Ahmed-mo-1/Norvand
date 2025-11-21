@@ -1,6 +1,6 @@
 <?php 
 
-include_once 'dashboard.php';
+//include_once 'dashboard.php';
 
 
 
@@ -64,7 +64,7 @@ function custom_post_type_portfolio() {
     register_post_type('portfolio', $args);
 }
 
-add_action('init', 'custom_post_type_portfolio', 0);
+//add_action('init', 'custom_post_type_portfolio', 0);
 
 
 
