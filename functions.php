@@ -96,7 +96,7 @@ function custom_login_override() {
         exit;
     }
 }
-add_action('init', 'custom_login_override');
+//add_action('init', 'custom_login_override');
 
 
  
