@@ -1,0 +1,59 @@
+.accordions {
+
+}
+
+.accordions a {
+text-decoration : none ;
+color : black
+}
+
+.accordions li {
+list-style : none ;
+width : 100% ;
+border-bottom : 1px solid #999999;
+margin-bottom : 10px;
+transition : 0.5s
+}
+
+.accordions li:hover {
+border-bottom : 1px solid black;
+}
+
+@media(min-width: 991px){
+.accordions li:hover {
+border-bottom : 1px solid black;
+}
+}
+
+.accordions :last-child {
+border-bottom : 0;
+}
+.accordions:hover :last-child {
+border-bottom : 0;
+}
+
+.accordions .final {
+border-bottom : 0
+}
+.accordions:hover .final {
+border-bottom : 0;
+}
+
+.accordions li .content 
+{
+    /*margin-bottom : 20px*/
+}
+
+.accordions li label {display : flex ; justify-content : space-between; align-items : center; font-size : 16px ; margin : 10px 0 ; font-weight : 400}
+.accordions label::after {  ; content : '+'; font-weight : 900 ;
+transition : 0.5s ; font-size : 20px}
+
+
+.accordions .content{ max-height : 0 ; overflow : hidden ; transition : 0.5s; }
+.accordions input[type='radio'] {display : none}
+.accordions input[type='radio']:checked + label::after{ transform : rotate(45deg) translate(2px, -2px) }
+.accordions input[type='radio']:checked + label + .content{ max-height : 400px }
+
+.accordions input[type='checkbox'] {display : none}
+.accordions input[type='checkbox']:checked + label::after{ transform : rotate(45deg) translate(2px, -2px) }
+.accordions input[type='checkbox']:checked + label + .content{ max-height : 400px }

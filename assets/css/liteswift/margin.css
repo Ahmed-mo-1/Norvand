@@ -1,0 +1,19 @@
+.mauto {margin : auto}
+
+/* 10px margin */
+.m10 {margin:10px}
+.m10t {margin-top : 10px}
+.m10b {margin-bottom : 10px}
+.m10r {margin-right : 10px}
+.m10l {margin-left : 10px}
+.m10tb {margin:10px 0}
+.m10rl {margin:0 10px}
+
+/* 20px margin */
+.m20 {margin:20px}
+.m20t {margin-top : 20px}
+.m20b {margin-bottom : 20px}
+.m20r {margin-right : 20px}
+.m20l {margin-left : 20px}
+.m20tb {margin:20px 0}
+.m20rl {margin:0 20px}

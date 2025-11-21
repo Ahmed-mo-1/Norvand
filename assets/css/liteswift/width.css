@@ -1,0 +1,9 @@
+/* width percentage */
+.w100pe {width: 100%}
+
+.w50m100 {width : 100%}
+@media(min-width : 991px){
+.w50m100 {width : 50%}
+}
+
+.w14px {width : 14px}

@@ -1,0 +1,19 @@
+<li>
+<input type='checkbox' name='accordion' id='help' ><!--checked-->
+<label for='help'>
+<?php echo __(get_theme_mod("footer1-set"),'');?>
+</label>
+<div class='content accfoo' style="">
+
+<div class="menu">
+<?php 
+wp_nav_menu(array(
+"theme_location"=>"footer1",
+"container" => false,
+"items_wrap" => '<ul >%3$s</ul>',
+"walker" => new WP_Translate_Nav_Menu_Walker(),
+));
+?>
+</div>
+</div>
+</li>

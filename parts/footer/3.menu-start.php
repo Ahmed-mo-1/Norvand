@@ -1,0 +1,1 @@
+<ul class='accordions footeraccordions' onSelectStart='return false'>

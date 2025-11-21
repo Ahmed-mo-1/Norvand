@@ -1,0 +1,35 @@
+
+.footer {width : 100%}
+.join-form {padding : 40px 10px ; text-align : center; background : var(--main-color);}
+.main-join-form { display : flex ; align-items : center ; justify-content : center ; padding : 20px }
+.client-form { display : flex ; align-items : center ; justify-content : center ; flex-direction : column ; gap : 10px ; width : 90% ; max-width: 400px }
+.main-footer {background : white;}
+.copyright {padding : 10px ; text-align : center; background : var(--main-color);}
+
+.copyright a {text-decoration : none ; color : black}
+
+.accfoo {display : flex ; flex-direction : column}
+.accfoo a {margin : 8px 0}
+.accfoo a:hover {text-decoration : underline}
+
+.footeraccordions {padding : 20px ; font-size : 14px}
+.footeraccordions .logo1 {display : block}
+.footeraccordions .logo {display : none}
+
+@media(min-width : 992px){
+.footeraccordions {display : flex}
+.footeraccordions li {border-bottom : none ; width : 40%}
+.footeraccordions li:hover {border-bottom : none;}
+.footeraccordions label::after {display : none}
+.footeraccordions .content{max-height : 400px}
+.footeraccordions .logo1 {display : none}
+.footeraccordions .logo {display : block}
+}
+
+.subconbg {position : fixed ; left:50% ; top:50% ; transform: translate(-50%,-50%) ; width : 100% ; height : 100vh ; margin : auto ; background : rgba(0,0,0,0.4) ; padding : 20px 10px ; touch-action: none; -ms-touch-action: none;
+border-radius : 20px ; text-align : center ; z-index : 998}
+
+.footer-form-message {position : fixed ; left:50% ; top:50% ; transform: translate(-50%,-50%) ; width : 90% ; margin : auto ; background : white ; padding : 20px 10px ; font-family : tajawal; font-weight : 500;
+border-radius : 20px ; text-align : center ; z-index : 999}
+
+#hidenow {background : black ; color : white ; padding : 10px 20px ; border-radius: 10px ; width : 250px ; cursor: pointer ; margin : auto}

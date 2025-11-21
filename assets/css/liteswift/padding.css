@@ -1,0 +1,26 @@
+/* 10px padding */
+.p10 {padding:10px}
+.p10t {padding-top : 10px}
+.p10b {padding-bottom : 10px}
+.p10r {padding-right : 10px}
+.p10l {padding-left : 10px}
+.p10tb {padding:10px 0}
+.p10rl {padding:0 10px}
+
+/* 20px padding */
+.p20 {padding:20px}
+.p20t {padding-top : 20px}
+.p20b {padding-bottom : 20px}
+.p20r {padding-right : 20px}
+.p20l {padding-left : 20px}
+.p20tb {padding:20px 0}
+.p20rl {padding:0 20px}
+
+/* 40px padding */
+.p40 {padding:40px}
+.p40t {padding-top : 40px}
+.p40b {padding-bottom : 40px}
+.p40r {padding-right : 40px}
+.p40l {padding-left : 40px}
+.p40tb {padding:40px 0}
+.p40rl {padding:0 40px}

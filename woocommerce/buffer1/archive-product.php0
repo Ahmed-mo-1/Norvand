@@ -1,0 +1,4 @@
+<?php 
+echo do_shortcode('[archive]');
+include_once get_theme_file_path('assets/css/archive.php') ;
+?>

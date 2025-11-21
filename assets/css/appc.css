@@ -1,0 +1,75 @@
+/* hide privacy in check out*/
+.woocommerce form .form-row .input-checkbox {
+  display: inline-block !important;
+  margin: -2px 0 0 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.woocommerce-ordering select {border : none ; background : none ; width : auto}
+
+#primary #main {margin : 0 0}
+
+.monica-nav-item {}
+.monica-nav-link {text-decoration : none ;
+    	font-size: 15px;
+	font-weight: 500;
+	color:#000000;
+	position: relative;
+	text-transform: capitalize;
+	transition: color 0.3s ease;
+}
+
+
+
+
+    /*.woocommerce-products-header {padding : 50px 20px}*/
+    .woocommerce-products-header__title {font-weight : 600  ; font-size : 32px ; line-height : 32px}
+.woocommerce-products-header .term-description p, .page-description p{font-size : 14px ; line-height : 20px ; margin : 14px 0 ; width : 90% ; text-align : justify}
+
+.monica-categories .woocommerce {width : 100% ; }
+
+/*.monica-categories .woocommerce ::-webkit-scrollbar {width : 15px}
+.monica-categories .woocommerce ::-webkit-scrollbar-track{background : #f1eee4}
+.monica-categories .woocommerce ::-webkit-scrollbar-thumb {background : #89867e}
+.monica-categories .woocommerce ::-webkit-scrollbar-thumb:hover{background : #252525}*/
+
+.monica-categories .woocommerce .products{/*overflow-x : scroll*/ ; display : flex ; flex-wrap : nowrap ; padding : 10px 0}
+.monica-categories h2.woocommerce-loop-category__title {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+.monica-categories .woocommerce .products li{width : 100% !important ; max-width : 220px !important}
+.monica-categories .woocommerce .products img{max-width : 220px !important; width : 220px !important ; padding : 0 10px}
+.monica-categories .woocommerce .products li a {text-decoration : none ; color : black ; font-weight : 600}
+.woocommerce-loop-category__title .count {display : none}
+
+/*.monprocontainer {margin : 0 14px ;}*/
+.monica-categories .woocommerce ul.products li.product, .monica-categories .woocommerce-page ul.products li.product {margin : 0 0 0 0px !important ; padding : 0 !important}
+
+.woocommerce-products-header {display : block !important}
+
+.woocommerce ul.products li.product a {display : flex ; flex-direction : column ; align-items : center}
+.woocommerce ul.products li.product a h2 {width : 200px}
+
+@media(max-width : 700px){
+.woocommerce-products-header__title {font-weight : 600 ; font-size : 32px ; margin : 16px 0 ; line-height : 32px}
+.woocommerce-products-header .term-description p{font-size : 14px ; line-height : 20px ; width : 90%}
+
+.monica-categories .woocommerce {width : 100% ; }
+.monica-categories .woocommerce ::-webkit-scrollbar {display : none !important}
+.monica-categories .woocommerce .products{overflow-y : scroll ; display : flex ; flex-wrap : nowrap}
+.monica-categories .woocommerce .products li{width : 100% !important}
+/*.monica-categories .woocommerce .products img {max-width : 46vw !important; width : 46vw !important}*/
+.monica-categories .woocommerce ul .product-category a img {max-width : 220px !important; width : 220px !important ; padding : 0 10px}
+
+.monica-categories .woocommerce .products li a {text-decoration : none ; color : black ; font-weight : 600}
+.woocommerce-loop-category__title .count {display : none}
+
+/*.monprocontainer {margin : 0 14px}*/
+
+.woocommerce-products-header {display : block !important}
+    
+}

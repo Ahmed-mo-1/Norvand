@@ -1,0 +1,1628 @@
+msgid "تصميمك الخاص"
+msgstr "Your Own design"
+
+msgid "خصم 50% على أساور فلاورد"
+msgstr "50% off for flowerd bracelets"
+
+msgid "اختر تصميمك الفريد واكتشف جمال مجموعتنا الحصرية."
+msgstr "Choose your unique design and discover the beauty of our exclusive collection."
+
+msgid "تسوق الان"
+msgstr "Shop Now"
+
+msgid "استخدم كود ' GOLD30 '"
+msgstr "Use Code 'GOLD30'"
+
+msgid "للحصول على خصم 15%"
+msgstr "To Get 15% Off"
+
+msgid "مجموعة الهدايا"
+msgstr "Gift Collection"
+
+msgid "تسوق الحين"
+msgstr "Shop Now"
+
+msgid "اكتشف قطعًا لا تُنسى مصممة بحب وأناقة."
+msgstr "Discover Unforgettable Pieces Designed with Love and Elegance."
+
+msgid "الاكثر مبيعاً"
+msgstr "Best Sellers"
+
+msgid "تريند الان"
+msgstr "Trending Now"
+
+msgid "تسوق المزيد"
+msgstr "Shop More"
+
+
+msgid "مجموعة فلاورد"
+msgstr "Flaurad Collection"
+
+msgid "متوفرة في 5 ألوان مميزة وتصاميم فريدة."
+msgstr "Available in 5 unique colors and designs."
+
+msgid "أساور الأصدقاء"
+msgstr "Friendship Bracelets"
+
+msgid "اختر من بين أكثر من 25 تصميمًا مميزًا واحصل على الحفر الشخصي."
+msgstr "Choose from over 25 unique designs and enjoy personalized engraving."
+
+msgid "أساور السي"
+msgstr "Sea Bracelets"
+
+msgid "لكل الأوقات، مع خيار الحفر الشخصي. الأكثر مبيعًا"
+msgstr "For all occasions, with a personalized engraving option. Best seller."
+
+msgid "اكتشف"
+msgstr "Discover"
+
+msgid "قطعنا اليومية"
+msgstr "Our Daily Pieces"
+
+msgid "مجموعة فاخرة للرجال"
+msgstr "Luxury Collection for Men"
+
+msgid "أساور، قلادات، خواتم و أكثر ، استكمال أناقتك مع مجموعتنا للرجال"
+msgstr "Bracelets, necklaces, rings, and more—complete your style with our men's collection."
+
+msgid "اكتشف أكثر"
+msgstr "Discover More"
+
+msgid "الذهب المطلي عيار 18"
+msgstr "18K Gold-Plated"
+
+msgid "مجوهرات نورڨاند المطلية بالذهب عيار 18 تجمع بين الأناقة والمتانة. تقدم تصميمات بسيطة وفاخرة، بما في ذلك الذهب الأصفر والوردي، لضمان لمعان يدوم طويلاً وأناقة عصرية. اكتشف تشكيلتنا الحصرية واستمتع بجودة استثنائية."
+msgstr "Norvand's 18K gold-plated jewelry combines elegance and durability. Offering simple yet luxurious designs, including yellow and rose gold, for long-lasting shine and modern elegance. Explore our exclusive collection and enjoy exceptional quality."
+
+msgid "ضمان لمدة سنتين"
+msgstr "Two-Year Warranty"
+
+msgid "نورڨاند تضمن مجوهراتها المطلية بالذهب عيار 18 لمدة سنتين ضد تغير اللون، التآكل، الصدأ، ردود الفعل التحسسية، وتلف الماء. لمشاكل الضمان، اتصل بنا عبر البريد الإلكتروني وسنقوم بإيجاد الحل المناسب. تسوق بثقة مع نورڨاند. شكراً لاختياركم نورڨاند!"
+msgstr "Norvand guarantees its 18K gold-plated jewelry for two years against discoloration, wear, rust, allergic reactions, and water damage. For warranty issues, contact us via email and we'll find the right solution. Shop with confidence with Norvand. Thank you for choosing Norvand!"
+
+
+msgid "مكفولة لمدة سنتين"
+msgstr "Two-Year Warranty"
+
+msgid "استمتع بمزايا التسوق بثقة مع كفالة الاستثنائية لمدة سنتين تضمن استمرارية جمال منتجك من غير تغير اللون. نفخر بجودة منتجاتنا ونضمن لك تجربة لا مثيل لها"
+msgstr "Enjoy the benefits of shopping with confidence with our exceptional two-year warranty that ensures the lasting beauty of your product without color change. We take pride in the quality of our products and guarantee you an unparalleled experience."
+
+msgid "اكتشف المزيد"
+msgstr "Discover More"
+
+msgid "قد يعجبك أيضاً…"
+msgstr "You Might Also Like…"
+
+msgid "الاسئلة الشائعة"
+msgstr "Frequently Asked Questions"
+
+msgid "اعرف المزيد"
+msgstr "Learn More"
+
+msgid "كم يحتاج التوصيل وقت ؟"
+msgstr "How long does delivery take?"
+
+msgid "المتوفر:"
+msgstr "Available:"
+
+msgid "• نفس اليوم للطلب قبل الساعة 3 م: برسوم 2.99 د.ك (مجاناً للطلبات 40 د.ك أو أكثر)."
+msgstr "• Same day for orders before 3 PM: 2.99 KD (Free for orders of 40 KD or more)."
+
+msgid "• 3-5 أيام عمل: برسوم 1 د.ك (مجاناً للطلبات 20 د.ك أو أكثر)."
+msgstr "• 3-5 business days: 1 KD (Free for orders of 20 KD or more)."
+
+msgid "• أيام العمل من الخميس إلى الأحد."
+msgstr "• Business days from Thursday to Sunday."
+
+msgid "تستخدمون الذهب الحقيقي ؟"
+msgstr "Do you use real gold?"
+
+msgid "ما هي سياسة الإرجاع الخاصة بكم؟"
+msgstr "What is your return policy?"
+
+msgid "الاكثر مبيعاً"
+msgstr "Best Sellers"
+
+msgid "تسوق المزيد"
+msgstr "Shop More"
+
+
+msgid "د.ك"
+msgstr "KD"
+
+msgid "مطلي ذهب عيار 18"
+msgstr "Gold plated 18 carat"
+
+msgid "اللون"
+msgstr "Color"
+
+msgid "اضافات"
+msgstr "Additions"
+
+msgid "تغليف هدايا (+0.50 د.ك)"
+msgstr "Gift wrapping (+0.50 KWD)"
+
+msgid "ملاحظات علي الطلب"
+msgstr "Order notes"
+
+msgid "إضافة إلى السلة"
+msgstr "Add to cart"
+
+msgid "خصم 50% على أساور فلاورد الأكثر مبيعا !"
+msgstr "50% off on best-selling Floward bracelets!"
+
+msgid "التفاصيل + القياس"
+msgstr "Details + Size"
+
+msgid "التوصيل والإرجاع"
+msgstr "Delivery and Returns"
+
+msgid "الضمان لمدة سنتين"
+msgstr "2-Year Warranty"
+
+msgid "الاكثر مبيعاً"
+msgstr "Best Sellers"
+
+msgid "تسوق المزيد"
+msgstr "Shop More"
+
+msgid "اللون :"
+msgstr "Color :"
+
+msgid "متوفر"
+msgstr "In stock"
+
+msgid "القماش :"
+msgstr "Fabric :"
+
+msgid "الخامة :"
+msgstr "Material :"
+
+msgid "الاسئلة الشائعة"
+msgstr "Frequently Asked Questions"
+
+msgid "من الضمان حتي التوصبل تعرف علي اسئلتنا الاكثر شيوعاً"
+msgstr "From warranty to delivery, explore our most frequently asked questions."
+
+msgid "هل لون المنتج ثابت وعليه كفالة ؟"
+msgstr "Is the product color permanent, and does it come with a warranty?"
+
+msgid "نعم بكل تأكيد. نوفر لك ضمان شامل لمدة سنتين على كل قطعة نبيعها، مضمونًا الحماية ضد الصدأ أو التأكل. هدفنا هو ضمان تسوقك بكامل الثقة"
+msgstr "Yes, absolutely. We offer a comprehensive two-year warranty on every piece we sell, guaranteeing protection against rust or corrosion. Our goal is to ensure you shop with complete confidence."
+
+msgid "كم يحتاج التوصيل وقت ؟"
+msgstr "How long does delivery take?"
+
+msgid "تعتمد مدة التوصيل حسب كل منتج :"
+msgstr "Delivery time depends on each product:"
+
+msgid "يمكنك معرفة حالة كل منتج من خلال النظر إلى الخيار الموضح أسفل كل منتج:"
+msgstr "You can check the status of each product by looking at the option indicated below each item:"
+
+msgid "نفس اليوم للطلب قبل الساعة 3 م: برسوم 2.99 د.ك (مجاناً للطلبات 40 د.ك أو أكثر)."
+msgstr "Same day delivery for orders before 3 PM: 2.99 KWD (Free for orders 40 KWD or more)."
+
+msgid "3-5 أيام عمل: برسوم 1 د.ك (مجاناً للطلبات 20 د.ك أو أكثر)."
+msgstr "3-5 business days: 1 KWD (Free for orders 20 KWD or more)."
+
+msgid "أيام العمل من الخميس إلى الأحد."
+msgstr "Business days are from Thursday to Sunday."
+
+msgid "تستخدمون الذهب الحقيقي ؟"
+msgstr "Do you use real gold?"
+
+msgid "نعم، نستخدم حصريًا الذهب الحقيقي في الطلاء على جميع قطع الذهبية. نستخدم الفولاذ المقاوم للصدأ الخالص، مما يتيح لك ارتداء مجوهراتك حول الماء والعرق دون القلق من التلاشي أو التأكل. تشترك قطع الذهب الوردي لدينا في القاعدة نفسها من الفولاذ المقاوم للصدأ الخالص، ومُغطاة بالذهب الحقيقي مع إضافة النحاس للحصول على لونها الوردي الجميل. بالمثل، تُصنع قطع الفضة لدينا من الفولاذ المقاوم للصدأ الخالص وتُصقل لتحقيق البريق المستمر. تُصنع قطع الرجال أيضًا من الفولاذ المقاوم للصدأ الخالص مع وعد بنفس المتانة ضد الماء والعرق"
+msgstr "Yes, we exclusively use real gold plating on all our gold pieces. We use pure stainless steel, allowing you to wear your jewelry around water and sweat without worrying about fading or corrosion. Our rose gold pieces share the same stainless steel base, coated with real gold and copper to achieve their beautiful pink hue. Similarly, our silver pieces are made from pure stainless steel and polished for lasting shine. Men's pieces are also made from pure stainless steel, with the same promise of durability against water and sweat."
+
+msgid "هل أقدر احفر على المنتج ؟"
+msgstr "Can I engrave on the product?"
+
+msgid "نحن سعداء بتقديم خدمة النقش و الحفر المجانية على بعض القطع المختارة، مع مجموعة من الخطوط والرموز التعبيرية. ابحث عن أيقونة صندوق النقش أسفل المنتجات المؤهلة للنقش. يُرجى الملاحظة أن القطع المنقوشة تستثنى من سياسة الإرجاع القياسية لدينا ما لم تكن معيبة، ولكنها تتمتع بالضمان الخاص بنا"
+msgstr "We are pleased to offer free engraving services on select items, with a variety of fonts and emojis. Look for the engraving box icon below eligible products. Please note that engraved items are excluded from our standard return policy unless defective, but they are covered by our warranty."
+
+msgid "ما هي سياسة الإرجاع الخاصة بكم؟"
+msgstr "What is your return policy?"
+
+msgid "إذا قررت تغيير رأيك في غضون 14 يومًا من الشراء، فإننا نقدم لك استردادًا كاملاً يُحتسب على البطاقة الأصلية المستخدمة في عملية الشراء. يُرجى ملاحظة أن المنتجات المخصصة والمنقوشة قد لا تكون مؤهلة للإرجاع. لمزيد من التفاصيل حول سياسة الإرجاع الخاصة بنا"
+msgstr "If you change your mind within 14 days of purchase, we offer a full refund credited to the original card used for the purchase. Please note that customized and engraved products may not be eligible for return. For more details on our return policy."
+
+msgid "شلون تجربة عملاء نورفاند ؟"
+msgstr "How is the Norvand customer experience?"
+
+msgid "اكتشف اكثر"
+msgstr "Discover more"
+
+msgid "السعادة"
+msgstr "Happiness"
+
+msgid "مضمونه"
+msgstr "Guaranteed"
+
+msgid "كفالة لمدة سنتين"
+msgstr "Two-year warranty"
+
+msgid "ثبات اللون"
+msgstr "Color stability"
+
+msgid "منتجات مقاومة للماء"
+msgstr "Water-resistant products"
+
+msgid "لا تسبب حساسية"
+msgstr "Hypoallergenic"
+
+msgid "شركات أخرى"
+msgstr "Other companies"
+
+msgid "نورڨاند"
+msgstr "Nørvand"
+
+msgid "رمز القسيمة"
+msgstr "Coupon code"
+
+msgid "استخدام القسيمة"
+msgstr "Apply coupon"
+
+msgid "إجمالي سلة المشتريات"
+msgstr "Cart total"
+
+msgid "التقدم لإتمام الطلب"
+msgstr "Proceed to checkout"
+
+msgid "عميل سابق؟"
+msgstr "Returning customer?"
+
+msgid "هل لديك قسيمة؟"
+msgstr "Have a coupon?"
+
+msgid "أنقر هنا لتسجيل الدخول"
+msgstr "Click here to log in"
+
+msgid "أنقر هنا لإدخال رمز القسيمة"
+msgstr "Click here to enter your coupon code"
+
+msgid "الفوترة والشحن"
+msgstr "Billing & Shipping"
+
+msgid "الدولة"
+msgstr "Country"
+
+msgid "البريد الالكتروني"
+msgstr "Email"
+
+msgid "رقم الهاتف"
+msgstr "Phone number"
+
+msgid "الاسم الاول"
+msgstr "First name"
+
+msgid "الاسم الاخير"
+msgstr "Last name"
+
+msgid "العنوان الكامل ( يرجى إدخال جميع التفاصيل) :"
+msgstr "Full address (please enter all details):"
+
+msgid "طلبك"
+msgstr "Your order"
+
+msgid "المنتجات المصنوعة يدويا يتم توصيلها خلال 9-15 يوم عمل"
+msgstr "Handmade products are delivered within 9-15 business days"
+
+msgid "المجموع"
+msgstr "Total"
+
+msgid "الشحن"
+msgstr "Shipping"
+
+msgid "خلال 3-5 ايام عمل — (مجاني / +20 دك)"
+msgstr "Within 3-5 business days — (Free / +20 KWD)"
+
+msgid "بنفس اليوم قبل 3 م — (مجاني / +40 دك)"
+msgstr "Same day before 3 PM — (Free / +40 KWD)"
+
+msgid "سيتم تحديث خيارات الشحن أثناء السداد."
+msgstr "Shipping options will be updated during checkout."
+
+msgid "الإجمالي"
+msgstr "Grand Total"
+
+msgid "كي نت - ماستر كارد - فيزا"
+msgstr "KNET - MasterCard - Visa"
+
+msgid "الدفع نقدًا عند الاستلام (قد لا تتوفر الخدمة لجميع الطلبات)"
+msgstr "Cash on delivery (may not be available for all orders)"
+
+msgid "تابي : قسط علي 4 دفعات"
+msgstr "Tabby: Pay in 4 installments"
+
+msgid "تأكيد الطلب"
+msgstr "Confirm order"
+
+msgid "اوافق على الشروط و الاحكام"
+msgstr "I agree to the terms and conditions"
+
+msgid "الشروط والاحكام"
+msgstr "Terms and conditions"
+
+msgid "اسم المستخدم أو البريد الإلكتروني"
+msgstr "Username or Email"
+
+msgid "كلمة المرور"
+msgstr "Password"
+
+msgid "تذكرني"
+msgstr "Remember me"
+
+msgid "نسيت كلمة مرورك؟"
+msgstr "Forgot your password?"
+
+msgid "تسجيل الدخول"
+msgstr "Log in"
+
+msgid "إذا تسوّقت بمتجرنا من قبل ولديك حساب لدينا، الرجاء إدخال تفاصيل دخولك بالأسفل. وإذا كنت عميلاً جديدًا، فيرجى منك المتابعة إلى قسم الفاتورة."
+msgstr "If you've shopped with us before and have an account, please enter your login details below. If you are a new customer, please proceed to the billing section."
+
+msgid "إذا كان لديك رمز القسيمة، فيرجى استخدامه أدناه."
+msgstr "If you have a coupon code, please use it below."
+
+
+msgid "مصنوع يدويا"
+msgstr "Handmade"
+
+msgid "الحفر على المنتج"
+msgstr "Enraving on Product"
+
+msgid "تم"
+msgstr "Done"
+
+msgid "الاسئلة"
+msgstr "Asked Questions"
+
+msgid "الشائعة"
+msgstr "Frequently"
+
+msgid "هل لون المنتج ثابت وعليه كفالة؟"
+msgstr "Is the product color permanent, and does it come with a warranty?"
+
+msgid "نعم بكل تأكيد. نوفر لك ضمان شامل لمدة سنتين على كل قطعة نبيعها، مضمونًا الحماية ضد الصدأ أو التأكل. هدفنا هو ضمان تسوقك بكامل الثقة"
+msgstr "Yes, absolutely. We offer a comprehensive two-year warranty on every piece we sell, guaranteeing protection against rust or corrosion. Our goal is to ensure you shop with complete confidence."
+
+msgid "تحديث السلة"
+msgstr "Update Cart"
+
+msgid "المحتوي المطلوب"
+msgstr "Required Content"
+
+msgid "تغليف هدايا"
+msgstr "Gift wrapper"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid "بنفس اليوم قبل 3 م (مجاني / +40 دك)"
+msgstr "Same day before 3 PM — (Free / +40 KD)"
+
+msgid "خلال 3-5 ايام عمل (مجاني / +20 دك)"
+msgstr "Within 3-5 business days — (Free / +20 KD)"
+
+msgid "خلال 3-5 ايام عمل — (مجاني / +20 دك): 1.00 د.ك"
+msgstr "Within 3-5 business days — (Free / +20 KD): 1.00 KD"
+
+msgid "بنفس اليوم قبل 3 م — (مجاني / +40 دك): 2.99 د.ك"
+msgstr "Same day before 3 PM — (Free / +40 KD): 2.99 KD"
+
+
+
+
+
+msgid "سوار لوسي"
+msgstr "Lucy Bracelet"
+
+msgid "حلية عين بسيطة"
+msgstr "Simple Eye Pendant"
+
+msgid "حلية قلب"
+msgstr "Heart Pendant"
+
+msgid "قلادة مرصعة (ذهبي وردي)"
+msgstr "Studded Necklace (Rose Gold)"
+
+msgid "قلادة الفراشة البيضاء"
+msgstr "White Butterfly Necklace"
+
+msgid "خاتم فلاورد (أسود)"
+msgstr "Flower Ring (Black)"
+
+msgid "خاتم فلاورد (أبيض)"
+msgstr "Flower Ring (White)"
+
+msgid "سوار الصداقة القماشي اسود اسود"
+msgstr "Black Friendship Fabric Bracelet"
+
+msgid "خاتم الفراشة الملونة ذهبي أبيض"
+msgstr "Colorful Butterfly Ring Gold White"
+
+msgid "سوار مغلق جديد (ذهبي وردي)"
+msgstr "New Closed Bracelet (Rose Gold)"
+
+msgid "سوار خيط القفل (أبيض)"
+msgstr "Lock Thread Bracelet (White)"
+
+msgid "أساور خيط مغناطيس (حمري)"
+msgstr "Magnetic Thread Bracelets (Crimson)"
+
+msgid "سوار خيط بار (وردي-ذهبي)"
+msgstr "Bar Thread Bracelet (Pink-Gold)"
+
+msgid "سوار خيط بار (أحمر-ذهبي)"
+msgstr "Bar Thread Bracelet (Red-Gold)"
+
+msgid "سوار خيط بار (أسود-فضي)"
+msgstr "Bar Thread Bracelet (Black-Silver)"
+
+msgid "سوار خيط سميك(وردي-ذهبي)"
+msgstr "Thick Thread Bracelet (Pink-Gold)"
+
+msgid "سوار خيط سميك(أحمر-ذهبي)"
+msgstr "Thick Thread Bracelet (Red-Gold)"
+
+msgid "سوار خيط سميك(أسود-فضي)"
+msgstr "Thick Thread Bracelet (Black-Silver)"
+
+msgid "سوار خيط القفل (أسود)"
+msgstr "Lock Thread Bracelet (Black)"
+
+msgid "أساور خيط مغناطيس (رمادي)"
+msgstr "Magnetic Thread Bracelets (Gray)"
+
+msgid "سوار خيط الحلقات (أحمر)"
+msgstr "Loop Thread Bracelet (Red)"
+
+msgid "سوار خيط الحلقات (أبيض)"
+msgstr "Loop Thread Bracelet (White)"
+
+msgid "سوار خيط الحلقات (أسود)"
+msgstr "Loop Thread Bracelet (Black)"
+
+msgid "سلسال مشبك ورق"
+msgstr "Paper Clip Chain"
+
+msgid "سلسال مشبك ورق (ذهبي)"
+msgstr "Paper Clip Chain (Gold)"
+
+msgid "حلية القمر"
+msgstr "Moon Pendant"
+
+msgid "حلية معيّن"
+msgstr "Diamond Pendant"
+
+msgid "حلية عملة"
+msgstr "Coin Pendant"
+
+msgid "حلية نجمة"
+msgstr "Star Pendant"
+
+msgid "سلسال كرات"
+msgstr "Beaded Chain"
+
+msgid "سلسال كرات ناعم"
+msgstr "Soft Beaded Chain"
+
+msgid "سلسال كرات ناعم (ذهبي)"
+msgstr "Soft Beaded Chain (Gold)"
+
+msgid "أقراط حلقات ملفوفة (ذهبي)"
+msgstr "Wrapped Hoop Earrings (Gold)"
+
+msgid "سوار خيط القفل (أحمر)"
+msgstr "Lock Thread Bracelet (Red)"
+
+msgid "سوار خيط الحلقات (ذهبي)"
+msgstr "Loop Thread Bracelet (Gold)"
+
+msgid "سوار خيط بار (أسود-ذهبي)"
+msgstr "Bar Thread Bracelet (Black-Gold)"
+
+msgid "سوار اللؤلؤ الملون"
+msgstr "Colored Pearl Bracelet"
+
+msgid "سوار ماس زيركون (ذهبي)"
+msgstr "Zircon Diamond Bracelet (Gold)"
+
+msgid "سوار الأحجار الملونة (رخامي)"
+msgstr "Colored Stone Bracelet (Marble)"
+
+msgid "سوار الأحجار الملونة (أخضر-أزرق)"
+msgstr "Colored Stone Bracelet (Green-Blue)"
+
+msgid "أقراط هوبس (ذهبي)"
+msgstr "Hoops Earrings (Gold)"
+
+msgid "سوار خرز ناعم (خمري)"
+msgstr "Soft Bead Bracelet (Crimson)"
+
+msgid "سوار خرز ناعم (ليلكي)"
+msgstr "Soft Bead Bracelet (Lilac)"
+
+msgid "قلادة الأحجار الملونة (رخامي)"
+msgstr "Colored Stone Necklace (Marble)"
+
+msgid "سوار مغلق جديد (ذهبي)"
+msgstr "New Closed Bracelet (Gold)"
+
+msgid "خاتم جديلة (ذهبي)"
+msgstr "Braided Ring (Gold)"
+
+msgid "خاتم مرامي ناعم (ذهبي)"
+msgstr "Soft Marami Ring (Gold)"
+
+msgid "أقراط مرصعة (ذهبي)"
+msgstr "Studded Earrings (Gold)"
+
+
+msgid "أساور أحجار مغناطيس (بني-وردي)"
+msgstr "Magnetic stone bracelets (Brown-Pink)"
+
+msgid "أساور أحجار مغناطيس (أسود-أبيض)"
+msgstr "Magnetic stone bracelets (Black-White)"
+
+msgid "سوار خرز ناعم (وردي)"
+msgstr "Soft bead bracelet (Pink)"
+
+msgid "قلادة الأحجار الملونة (أزرق-أخضر)"
+msgstr "Colored stone necklace (Blue-Green)"
+
+msgid "خاتم ملفوف (ذهبي)"
+msgstr "Twisted ring (Gold)"
+
+msgid "خاتم مميز مفتوح (ذهبي)"
+msgstr "Unique open ring (Gold)"
+
+msgid "خاتم مرامي مفتوح (ذهبي)"
+msgstr "Open Marami ring (Gold)"
+
+msgid "قلادة انفينيتي (فضي)"
+msgstr "Infinity necklace (Silver)"
+
+msgid "قلادة انفينيتي (ذهبي وردي)"
+msgstr "Infinity necklace (Rose Gold)"
+
+msgid "قلادة انفينيتي (ذهبي)"
+msgstr "Infinity necklace (Gold)"
+
+msgid "قلادة كيوب (ذهبي)"
+msgstr "Cube necklace (Gold)"
+
+msgid "قلادة الكريستالة الكبيرة (ذهبي وردي-أبيض)"
+msgstr "Large crystal necklace (Rose Gold-White)"
+
+msgid "قلادة الكريستالات الناعمة"
+msgstr "Soft crystals necklace"
+
+msgid "سوار الكريستالات الملونة"
+msgstr "Colored crystal bracelet"
+
+msgid "سوار بار الكريستال"
+msgstr "Crystal bar bracelet"
+
+msgid "سوار الكريستالات الناعمة"
+msgstr "Soft crystals bracelet"
+
+msgid "سوار الكريستالات المعلقة"
+msgstr "Hanging crystals bracelet"
+
+msgid "قلادة الكريستالة الكبيرة (ذهبي-أبيض)"
+msgstr "Large crystal necklace (Gold-White)"
+
+msgid "قلادة الكريستالة الكبيرة (فضي-أبيض)"
+msgstr "Large crystal necklace (Silver-White)"
+
+msgid "قلادة دائرية باللون الفضي-قطر 12 مم"
+msgstr "Circular pendant in silver-Diameter 12 mm"
+
+msgid "قلادة اللؤلؤ"
+msgstr "Pearl necklace"
+
+msgid "سلسال مسطّح بسيط"
+msgstr "Simple flat chain"
+
+msgid "سوار الكريستالات (أخضر-ذهبي)"
+msgstr "Crystals bracelet (Green-Gold)"
+
+msgid "سوار الكريستالات (أخضر-فضي)"
+msgstr "Crystals bracelet (Green-Silver)"
+
+msgid "قلادة التنس (ذهبي)"
+msgstr "Tennis necklace (Gold)"
+
+msgid "قلادة التنس (فضي)"
+msgstr "Tennis necklace (Silver)"
+
+msgid "سوار التنس (فضي)"
+msgstr "Tennis bracelet (Silver)"
+
+msgid "سوار التنس (ذهبي)"
+msgstr "Tennis bracelet (Gold)"
+
+msgid "سوار اللؤلؤ"
+msgstr "Pearl bracelet"
+
+msgid "سوار اللؤلؤ البسيط"
+msgstr "Simple pearl bracelet"
+
+msgid "أقراط لؤلؤ"
+msgstr "Pearl earrings"
+
+msgid "سوار فلاورد الجديد (فضي)"
+msgstr "New Flowered bracelet (Silver)"
+
+msgid "سوار الفراشة الملون (أبيض)"
+msgstr "Colored butterfly bracelet (White)"
+
+msgid "أقراط الفراشة البيضاء"
+msgstr "White butterfly earrings"
+
+msgid "قلادة فلاورد الجديدة (ذهبي وردي-أبيض)"
+msgstr "New Flowered necklace (Rose Gold-White)"
+
+msgid "قلادة فلاورد طويلة (ذهبي-أبيض)"
+msgstr "Long Flowered necklace (Gold-White)"
+
+msgid "أقراط فلاورد (ذهبي-أسود)"
+msgstr "Flowered earrings (Gold-Black)"
+
+msgid "قلادة فلاورد الذهبية"
+msgstr "Gold Flowered necklace"
+
+msgid "(أٌقراط فلاورد (ذهبي"
+msgstr "Flowered earrings (Gold)"
+
+msgid "قلادة فلاورد الجديدة (فضي-أبيض)"
+msgstr "New Flowered necklace (Silver-White)"
+
+msgid "سوار فلاورد الجديد (ذهبي وردي)"
+msgstr "New Flowered bracelet (Rose Gold)"
+
+msgid "أقراط فلاورد (ذهبي-أبيض)"
+msgstr "Flowered earrings (Gold-White)"
+
+msgid "أقراط فلاورد (فضي-أبيض)"
+msgstr "Flowered earrings (Silver-White)"
+
+msgid "سوار فلاورد (ذهبي)"
+msgstr "Flowered bracelet (Gold)"
+
+msgid "قلادة فلاورد (ذهبي وردي-أبيض)"
+msgstr "Flowered necklace (Rose Gold-White)"
+
+msgid "قلادة فلاورد (فضي-أبيض)"
+msgstr "Flowered necklace (Silver-White)"
+
+msgid "سوار فلاورد (ذهبي وردي-أبيض)"
+msgstr "Flowered bracelet (Rose Gold-White)"
+
+msgid "سوار فلاورد (فضي-أبيض)"
+msgstr "Flowered bracelet (Silver-White)"
+
+msgid "قلادة فلاورد (ذهبي-أبيض)"
+msgstr "Flowered necklace (Gold-White)"
+
+msgid "قلادة فلاورد (ذهبي-أسود)"
+msgstr "Flowered necklace (Gold-Black)"
+
+msgid "سوار فلاورد (ذهبي-أسود)"
+msgstr "Flowered bracelet (Gold-Black)"
+
+msgid "سوار ألماسة (ذهبي وردي)"
+msgstr "Diamond bracelet (Rose Gold)"
+
+msgid "سوار فلاورد (ذهبي-أبيض)"
+msgstr "Flowered bracelet (Gold-White)"
+
+msgid "سوار صداقة معدني (فضي)"
+msgstr "Metal friendship bracelet (Silver)"
+
+msgid "سوار صداقة معدني (ذهبي وردي)"
+msgstr "Metal friendship bracelet (Rose Gold)"
+
+msgid "سوار صداقة معدني (ذهبي)"
+msgstr "Metal friendship bracelet (Gold)"
+
+msgid "سوار ألماسة (ذهبي)"
+msgstr "Diamond bracelet (Gold)"
+
+msgid "سوار ألماسة (فضي)"
+msgstr "Diamond bracelet (Silver)"
+
+msgid "سوار بار الكريستال (فضي)"
+msgstr "Crystal bar bracelet (Silver)"
+
+msgid "سوار بار الكريستال (ذهبي)"
+msgstr "Crystal bar bracelet (Gold)"
+
+msgid "سوار القلب المميز (فضي)"
+msgstr "Unique heart bracelet (Silver)"
+
+msgid "سوار القلب المميز (ذهبي)"
+msgstr "Unique heart bracelet (Gold)"
+
+msgid "سوار صداقة قماشي (أخضر- ذهبي)"
+msgstr "Fabric friendship bracelet (Green-Gold)"
+
+msgid "سوار بار الكريستال (ذهبي وردي)"
+msgstr "Crystal bar bracelet (Rose Gold)"
+
+msgid "سوار انفينيتي (فضي)"
+msgstr "Infinity bracelet (Silver)"
+
+msgid "سوار مرصع (فضي)"
+msgstr "Studded bracelet (Silver)"
+
+msgid "سوار مرصع (ذهبي وردي)"
+msgstr "Studded bracelet (Rose Gold)"
+
+msgid "سوار الفراشة (ذهبي)"
+msgstr "Butterfly bracelet (Gold)"
+
+msgid "سوار الفراشة (فضي)"
+msgstr "Butterfly bracelet (Silver)"
+
+msgid "سوار البار مع قلب (ذهبي)"
+msgstr "Bar bracelet with heart (Gold)"
+
+msgid "سوار البار مع قلب (فضي)"
+msgstr "Bar bracelet with heart (Silver)"
+
+msgid "سوار صداقة قماشي (وردي-ذهبي)"
+msgstr "Fabric friendship bracelet (Pink-Gold)"
+
+msgid "سوار صداقة قماشي (أحمر-ذهبي)"
+msgstr "Fabric friendship bracelet (Red-Gold)"
+
+msgid "سوار البار مع قلب (ذهبي وردي)"
+msgstr "Bar bracelet with heart (Rose Gold)"
+
+msgid "سوار صداقة قماشي (رمادي-فضي)"
+msgstr "Fabric friendship bracelet (Gray-Silver)"
+
+msgid "سوار صداقة قماشي (أزرق-فضي)"
+msgstr "Fabric friendship bracelet (Blue-Silver)"
+
+msgid "أقراط فلاورد البسيطة (ابيض)"
+msgstr "Simple Flowered earrings (White)"
+
+msgid "أقراط فلاورد البسيطة (أسود)"
+msgstr "Simple Flowered earrings (Black)"
+
+msgid "سوار فلاورد بسيط (ذهبي-أسود)"
+msgstr "Simple Flowered bracelet (Gold-Black)"
+
+msgid "سوار صداقة قماشي (أسود-فضي)"
+msgstr "Fabric friendship bracelet (Black-Silver)"
+
+msgid "سوار فلاورد بسيط (ذهبي-أبيض)"
+msgstr "Simple Flowered bracelet (Gold-White)"
+
+msgid "قلادة فلاورد البسيطة (ذهبي-أسود)"
+msgstr "Simple Flowered necklace (Gold-Black)"
+
+msgid "قلادة فلاورد البسيطة (ذهبي-أبيض)"
+msgstr "Simple Flowered necklace (Gold-White)"
+
+msgid "سوار مغلق (فضي)"
+msgstr "Closed bracelet (Silver)"
+
+msgid "سوار مغلق ذهبي 8مم"
+msgstr "Closed bracelet (Gold 8mm)"
+
+msgid "سوار مغلق (أسود)"
+msgstr "Closed bracelet (Black)"
+
+msgid "سوار مغلق 4مم (ذهبي وردي)"
+msgstr "Closed bracelet 4mm (Rose Gold)"
+
+msgid "قلادة الأبراج (ذهبي وردي)"
+msgstr "Zodiac necklace (Rose Gold)"
+
+msgid "قلادة الأبراج (فضي)"
+msgstr "Zodiac necklace (Silver)"
+
+msgid "قلادة الأبراج (ذهبي)"
+msgstr "Zodiac necklace (Gold)"
+
+msgid "قلادة البار (ذهبي وردي)"
+msgstr "Bar necklace (Rose Gold)"
+
+msgid "سوار البار (فضي)"
+msgstr "Bar bracelet (Silver)"
+
+msgid "سوار البار (ذهبي وردي)"
+msgstr "Bar bracelet (Rose Gold)"
+
+msgid "قلادة البار (ذهبي)"
+msgstr "Bar necklace (Gold)"
+
+msgid "سوار البار (أسود)"
+msgstr "Bar bracelet (Black)"
+
+msgid "سوار البار (ذهبي)"
+msgstr "Bar bracelet (Gold)"
+
+msgid "خاتم لامع ومطفي (فضي)"
+msgstr "Shiny and matte ring (Silver)"
+
+msgid "خاتم لامع ومطفي (ذهبي)"
+msgstr "Shiny and matte ring (Gold)"
+
+msgid "خاتم لامع ومطفي (أسود)"
+msgstr "Shiny and matte ring (Black)"
+
+msgid "سوار سلسلة بسيطة (أسود)"
+msgstr "Simple chain bracelet (Black)"
+
+
+msgid "سوار C مطفي ولامع (فضي)"
+msgstr "Shiny and matte C bracelet (Silver)"
+
+msgid "خاتم لامع ومطفي (ذهبي وردي)"
+msgstr "Shiny and matte ring (Rose Gold)"
+
+msgid "سوار C مطفي ولامع (أسود)"
+msgstr "Shiny and matte C bracelet (Black)"
+
+msgid "سوار سلسلة بسيطة (ذهبي)"
+msgstr "Simple chain bracelet (Gold)"
+
+msgid "سوار مغلق 4مم (فضي)"
+msgstr "Closed bracelet 4mm (Silver)"
+
+msgid "سوار سلسلة بسيطة (فضي)"
+msgstr "Simple chain bracelet (Silver)"
+
+msgid "سوار مغلق (ذهبي)"
+msgstr "Closed bracelet (Gold)"
+
+msgid "سوار C مطفي ولامع (ذهبي)"
+msgstr "Shiny and matte C bracelet (Gold)"
+
+msgid "سوار C مطفي ولامع (ذهبي وردي)"
+msgstr "Shiny and matte C bracelet (Rose Gold)"
+
+msgid "قلادة البار العمودية (أسود)"
+msgstr "Vertical bar necklace (Black)"
+
+msgid "سلسال بسيط (أسود)"
+msgstr "Simple chain (Black)"
+
+msgid "سلسال بسيط (فضي)"
+msgstr "Simple chain (Silver)"
+
+msgid "سلسال بسيط (ذهبي)"
+msgstr "Simple chain (Gold)"
+
+msgid "قلادة البار العمودية (فضي)"
+msgstr "Vertical bar necklace (Silver)"
+
+msgid "قلادة الأبراج (اسود)"
+msgstr "Zodiac necklace (Black)"
+
+msgid "سلسلة لوسي"
+msgstr "Lucy chain"
+
+msgid "سلسلة تاما"
+msgstr "Tama chain"
+
+msgid "سلسلة إيلي الدوائر"
+msgstr "Eli circles chain"
+
+msgid "سلسلة الانفنتي المخصصة"
+msgstr "Customized infinity chain"
+
+msgid "سلسلة الانفنتي الثلاثية"
+msgstr "Triple infinity chain"
+
+msgid "سلسلة هانا مع ثلاث قطع مخصصة"
+msgstr "Hannah chain with three customized pieces"
+
+msgid "سلسلة هانا مع خمس قطع مخصصة"
+msgstr "Hannah chain with five customized pieces"
+
+msgid "سلسلة ايلي مع حرفين و قلب للحفر"
+msgstr "Eli chain with two letters and a heart for engraving"
+
+msgid "سلسلة لانا البار مع احرف"
+msgstr "Lana bar chain with letters"
+
+msgid "سلسلة ايلي للاسم مع احجار فلاورد"
+msgstr "Eli chain with name and Flowered stones"
+
+msgid "سلسلة  إيلي  مع اسم و قلبين"
+msgstr "Eli chain with name and two hearts"
+
+msgid "سلسلة لانا مع قلب ابيض و حجر فلاورد للحفر"
+msgstr "Lana chain with white heart and Flowered stone for engraving"
+
+msgid "سلسلة لانا مع حرفين و قلب للحفر"
+msgstr "Lana chain with two letters and a heart for engraving"
+
+msgid "سلسلة ايلي مع حرفين و قلب للحفر"
+msgstr "Eli chain with two letters and a heart for engraving"
+
+msgid "سلسلة تاما مع حجر فلاورد ذهبي"
+msgstr "Tama chain with Gold Flowered stone"
+
+msgid "سلسلة هانا مع حجر فلاورد ابيض"
+msgstr "Hannah chain with White Flowered stone"
+
+msgid "سلسلة هانا مع قلب احمر"
+msgstr "Hannah chain with Red heart"
+
+msgid "سلسلة لوسي مع قلب مميز للحفر"
+msgstr "Lucy chain with special heart for engraving"
+
+msgid "سلسلة هانا مع قلب مخصص"
+msgstr "Hannah chain with customized heart"
+
+msgid "سلسلة إيلي مع حرفين و حجر فلاورد ابيض"
+msgstr "Eli chain with two letters and White Flowered stone"
+
+msgid "سلسلة لانا مع قلب احمر"
+msgstr "Lana chain with Red heart"
+
+msgid "سلسلة لانا مع قلب مخصص"
+msgstr "Lana chain with customized heart"
+
+msgid "سلسلة ايلي للاسم"
+msgstr "Eli chain with name"
+
+msgid "سلسلة إيلي مع حرفين و قلب مميز للحفر"
+msgstr "Eli chain with two letters and special heart for engraving"
+
+msgid "سلسلة تاما مع حرف و حجر فلاورد ذهبي"
+msgstr "Tama chain with letter and Gold Flowered stone"
+
+msgid "سلسلة هانا مع حرف و حجر فلاورد أبيض"
+msgstr "Hannah chain with letter and White Flowered stone"
+
+msgid "سلسلة هانا مع حرف و قلب أحمر"
+msgstr "Hannah chain with letter and Red heart"
+
+msgid "سلسلة تاما مع حرف و قلب أبيض"
+msgstr "Tama chain with letter and White heart"
+
+msgid "سلسلة لانا مع حرف مدمج"
+msgstr "Lana chain with integrated letter"
+
+msgid "سلسلة ايلي مع حرف مدمج"
+msgstr "Eli chain with integrated letter"
+
+msgid "سلسلة لانا مع حرف عربي"
+msgstr "Lana chain with Arabic letter"
+
+msgid "سلسلة ايلي مع حرف عربي"
+msgstr "Eli chain with Arabic letter"
+
+msgid "سلسلة تاما مع حرف عربي"
+msgstr "Tama chain with Arabic letter"
+
+
+msgid "سلسلة هانا مع حرف عربي"
+msgstr "Hannah chain with Arabic letter"
+
+msgid "سلسلة لوسي مع حرف عربي"
+msgstr "Lucy chain with Arabic letter"
+
+msgid "سلسلة إيلي للاسم"
+msgstr "Eli chain with name"
+
+msgid "سلسلة هانا للاسم"
+msgstr "Hannah chain with name"
+
+msgid "سلسلة لانا للاحرف"
+msgstr "Lana chain with letters"
+
+msgid "سلسلة ايلي للاحرف"
+msgstr "Eli chain with letters"
+
+msgid "سلسلة تاما للاحرف"
+msgstr "Tama chain with letters"
+
+msgid "سلسلة هانا للاحرف"
+msgstr "Hannah chain with letters"
+
+msgid "سلسلة لوسي للاحرف"
+msgstr "Lucy chain with letters"
+
+msgid "سوار لوسي مع قلب مميز للحفر"
+msgstr "Lucy bracelet with special heart for engraving"
+
+msgid "سوار إيلي مع حرفين و قلب مميز للحفر"
+msgstr "Eli bracelet with two letters and special heart for engraving"
+
+msgid "سوار تاما"
+msgstr "Tama bracelet"
+
+msgid "سوار إيلي البار"
+msgstr "Eli bar bracelet"
+
+msgid "سوار هانا مع قلب مخصص"
+msgstr "Hannah bracelet with customized heart"
+
+msgid "سوار تاما مع حرف و حجر فلاورد ذهبي"
+msgstr "Tama bracelet with letter and Gold Flowered stone"
+
+msgid "سوار هانا مع حرف و حجر فلاورد أبيض"
+msgstr "Hannah bracelet with letter and White Flowered stone"
+
+msgid "سوار هانا مع حرف و قلب أحمر"
+msgstr "Hannah bracelet with letter and Red heart"
+
+msgid "سوار تاما مع حرف و قلب أبيض"
+msgstr "Tama bracelet with letter and White heart"
+
+msgid "سوار ايلي مع حرفين وحجر فلاورد ابيض"
+msgstr "Eli bracelet with two letters and White Flowered stone"
+
+msgid "سوار ايلي مع حجر فلاورد ابيض"
+msgstr "Eli bracelet with White Flowered stone"
+
+msgid "سوار لانا مع حرف و حجر فلاورد ذهبي"
+msgstr "Lana bracelet with letter and Gold Flowered stone"
+
+msgid "سوار لانا مع حرف و حجر فلاورد ابيض"
+msgstr "Lana bracelet with letter and White Flowered stone"
+
+msgid "سوار لانا مع حجر فلاورد للحفر"
+msgstr "Lana bracelet with Flowered stone for engraving"
+
+msgid "سوار ايلي للاسم"
+msgstr "Eli bracelet with name"
+
+msgid "سوار إيلي مع اسم و قلب احمر"
+msgstr "Eli bracelet with name and Red heart"
+
+msgid "سوار ايلي مع حرفين و قلب للحفر"
+msgstr "Eli bracelet with two letters and heart for engraving"
+
+msgid "سوار ايلي الدائري مع حرفين و قلب للحفر"
+msgstr "Eli circular bracelet with two letters and heart for engraving"
+
+msgid "سوار ايلي الدائري مع حرف مدمج"
+msgstr "Eli circular bracelet with integrated letter"
+
+msgid "سوار لانا مع حرف مدمج"
+msgstr "Lana bracelet with integrated letter"
+
+msgid "سوار ايلي مع حرف مدمج"
+msgstr "Eli bracelet with integrated letter"
+
+msgid "سوار ايلي الدائري"
+msgstr "Eli circular bracelet"
+
+msgid "سوار إيلي الدوائر"
+msgstr "Eli circles bracelet"
+
+msgid "سوار الانفنتي"
+msgstr "Infinity bracelet"
+
+msgid "سوار الانفنتي الثلاثي"
+msgstr "Triple infinity bracelet"
+
+msgid "سوار ايلي البار مع حرف"
+msgstr "Eli bar bracelet with letter"
+
+msgid "سوار هانا مع قطع بار للحفر"
+msgstr "Hannah bracelet with bar pieces for engraving"
+
+msgid "سوار ايلي مع قطع بار للحفر"
+msgstr "Eli bracelet with bar pieces for engraving"
+
+msgid "سوار ايلي مع قلب للحفر"
+msgstr "Eli bracelet with heart for engraving"
+
+msgid "سوار ايلي الدائري للاحرف"
+msgstr "Eli circular bracelet with letters"
+
+msgid "سوار لانا للاحرف"
+msgstr "Lana bracelet with letters"
+
+msgid "سوار ايلي للاحرف"
+msgstr "Eli bracelet with letters"
+
+msgid "سوار تاما للاحرف"
+msgstr "Tama bracelet with letters"
+
+msgid "سوار هانا للاحرف"
+msgstr "Hannah bracelet with letters"
+
+msgid "سوار لوسي للاحرف"
+msgstr "Lucy bracelet with letters"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+msgid "سلسلة ايلي مع قطع بار للحفر"
+msgstr "Elly chain with engraving parts"
+
+msgid "سلسلة هانا مع قطع بار للحفر"
+msgstr "Hana chain with engraving bars"
+
+msgid "سوار هانا مع ثلاث قطع مخصصة"
+msgstr "Hana chain with three engraving parts"
+
+msgid "سوار هانا مع خمس قطع مخصصة"
+msgstr "Hana chain with five engraving parts"
+
+
+
+
+
+
+
+
+
+
+
+
+
+msgid "له/لها"
+msgstr "Him/Her"
+
+msgid "للتخصيص"
+msgstr "For Personalized"
+
+msgid "الكل"
+msgstr "All"
+
+msgid "قلادات الاحرف"
+msgstr "Letters Necklaces"
+
+msgid "قلادات الاسماء"
+msgstr "Names Necklaces"
+
+msgid "كل الخواتم"
+msgstr "All Rings"
+
+
+
+
+msgid "الاقراط"
+msgstr "Earrings"
+
+msgid "الخواتم"
+msgstr "Rings"
+
+msgid "الرجال"
+msgstr "Men"
+
+msgid "الاساور"
+msgstr "Bracelets"
+
+msgid "القلادات"
+msgstr "Necklaces"
+
+msgid "كل الاساور"
+msgstr "All Bracelets"
+
+msgid "كل القلادات"
+msgstr "All Necklaces"
+
+msgid "هدايا"
+msgstr "Gifts"
+
+msgid "الاكثر اهداء"
+msgstr "Most Gifted"
+
+msgid "هدايا للتخصيص"
+msgstr "Customizable Gifts"
+
+msgid "هدايا للحفر"
+msgstr "Engraved Gifts"
+
+msgid "هدايا له"
+msgstr "Gifts for Him"
+
+msgid "هدايا لها"
+msgstr "Gifts for Her"
+
+msgid "اساور التنس"
+msgstr "Tennis Bracelets"
+
+msgid "اساور الحليات"
+msgstr "Charm Bracelets"
+
+msgid "اساور الخرز"
+msgstr "Beaded Bracelets"
+
+msgid "اساور الصداقة"
+msgstr "Friendship Bracelets"
+
+msgid "اساور المفتوحة و المغلقة"
+msgstr "Open & Closed Bracelets"
+
+msgid "اساور فلاورد"
+msgstr "Flowered Bracelets"
+
+msgid "اساور فضية"
+msgstr "Silver Bracelets"
+
+msgid "اساور للحفر"
+msgstr "Engravable Bracelets"
+
+msgid "اساور-السلاسل"
+msgstr "Chain Bracelets"
+
+msgid "الاقراط البسيطة"
+msgstr "Simple Earrings"
+
+msgid "الاقراط المميزه"
+msgstr "Unique Earrings"
+
+msgid "الاكثر مبيعاً"
+msgstr "Best Sellers"
+
+msgid "الخواتم البسيطة"
+msgstr "Simple Rings"
+
+msgid "الخواتم المميزه"
+msgstr "Unique Rings"
+
+msgid "ساعات نسائية"
+msgstr "Women's Watches"
+
+msgid "قلادات التنس"
+msgstr "Tennis Necklaces"
+
+msgid "قلادات الحلي"
+msgstr "Charm Necklaces"
+
+msgid "قلادات الخرز"
+msgstr "Beaded Necklaces"
+
+msgid "قلادات السلاسل"
+msgstr "Chain Necklaces"
+
+msgid "قلادات الفضية"
+msgstr "Silver Necklaces"
+
+msgid "قلادات فلاورد"
+msgstr "Flowered Necklaces"
+
+msgid "قلادات للحفر"
+msgstr "Engravable Necklaces"
+
+msgid "مجوهرات مخصصة"
+msgstr "Customized Jewelry"
+
+msgid "اساور الاحرف"
+msgstr "Letter Bracelets"
+
+msgid "اساور الاسماء"
+msgstr "Name Bracelets"
+
+msgid "كل الاقراط"
+msgstr "All Earrings"
+
+msgid "التوصيل"
+msgstr "Delivery"
+
+msgid "الارجاع و الأستبدال"
+msgstr "Returns & Exchanges"
+
+msgid "الكفالة"
+msgstr "Warranty"
+
+msgid "الاهتمام بالمجوهرات"
+msgstr "Jewelry Care"
+
+msgid "القياس"
+msgstr "Sizing"
+
+msgid "انستقرام"
+msgstr "Instagram"
+
+msgid "تيكتوك"
+msgstr "TikTok"
+
+msgid "فيسبوك"
+msgstr "Facebook"
+
+msgid "وتساب"
+msgstr "WhatsApp"
+
+msgid "ايميل"
+msgstr "Email"
+
+msgid "مهمتنا لك"
+msgstr "Our Mission for You"
+
+msgid "الخصوصية"
+msgstr "Privacy"
+
+msgid "الشروط و الاحكام"
+msgstr "Terms & Conditions"
+
+msgid "كل الرجال"
+msgstr "All Men"
+
+msgid "رعاية العميل"
+msgstr "Customer Care"
+
+msgid "تواصل معنا"
+msgstr "Contact Us"
+
+msgid "عن نورڤاند"
+msgstr "About Norvand"
+
+msgid "دليل الهدايا"
+msgstr "Gift Guide"
+
+
+msgid "سوار"
+msgstr "bracelet"
+
+msgid "هانا"
+msgstr "hanna"
+
+msgid "مع"
+msgstr "with"
+
+msgid "قطع"
+msgstr "parts"
+
+msgid "ثلاث"
+msgstr "three"
+
+msgid "خمس"
+msgstr "five"
+
+msgid "حفر"
+msgstr "engraving"
+
+msgid "ضمان نورڨاند لمدة سنتين"
+msgstr "Norvand's Two-Year Warranty"
+
+msgid "في نوفاند، نحن ملتزمون بضمان أعلى مستويات الجودة لمجوهراتنا. يغطي ضماننا لمدة سنتين جميع حالات تغير اللون أو التآكل أو الصدأ على مجوهراتنا المطلية بالذهب عيار 18. نظرًا لاستخدامنا طلاء الذهب الحقيقي، فإن مجوهراتنا مصممة لتُرتدى يوميًا. للحفاظ على عمر مجوهرات نوفاند، نوصي باتباع تعليمات العناية الخاصة بنا."
+msgstr "At Norvand, we are committed to ensuring the highest quality for our jewelry. Our two-year warranty covers any discoloration, wear, or rust on our 18K gold-plated jewelry. Since we use real gold plating, our jewelry is designed for daily wear. To maintain the longevity of Norvand jewelry, we recommend following our care instructions."
+
+msgid "تغطية الضمان:"
+msgstr "Warranty Coverage:"
+
+msgid "تغير اللون"
+msgstr "Discoloration"
+
+msgid "التآكل"
+msgstr "Wear"
+
+msgid "الصدأ"
+msgstr "Rust"
+
+msgid "ردود الفعل التحسسية"
+msgstr "Allergic Reactions"
+
+msgid "تلف الماء"
+msgstr "Water Damage"
+
+msgid "يرجى ملاحظة أن الضمان لا يغطي المجوهرات المفقودة أو المسروقة أو التلف الناتج عن سوء الاستخدام او بعض المنتجات التي تشمل خصومات."
+msgstr "Please note that the warranty does not cover lost or stolen jewelry, damage caused by misuse, or some products that include discounts."
+
+msgid "كيفية استخدام الضمان:"
+msgstr "How to Use the Warranty:"
+
+msgid "الاتصال بنا: راسلنا عبر البريد الإلكتروني على help@norvandshop.com مع وصف للمشكلة وصورة للمنتج."
+msgstr "Contact Us: Email us at help@norvandshop.com with a description of the issue and a photo of the product."
+
+msgid "التقييم: سيقوم فريقنا بتقييم طلبك."
+msgstr "Evaluation: Our team will assess your request."
+
+msgid "الحل: بناءً على تقييمنا، سنقوم إما بإرسال بديل أو إصدار تعويض."
+msgstr "Resolution: Based on our evaluation, we will either send a replacement or issue a compensation."
+
+msgid "في حالة عدم توفر المنتج، سنقترح حلولًا بديلة، مثل استبداله بمنتج مختلف. يرجى ملاحظة أن رسوم التوصيل قد تُطبق في بعض الحالات لاستلام المنتج وإعادة إرساله إليك."
+msgstr "In the event the product is unavailable, we will suggest alternative solutions, such as replacing it with a different product. Please note that shipping fees may apply in some cases for receiving and returning the product."
+
+msgid "هدفنا هو أن تتسوق بثقة تامة. نحن هنا للمساعدة وجعل تجربتك مع نوفاند استثنائية."
+msgstr "Our goal is for you to shop with complete confidence. We are here to help and make your experience with Norvand exceptional."
+
+msgid "شكرًا لاختيارك نورڨاند !"
+msgstr "Thank you for choosing Norvand!"
+
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""

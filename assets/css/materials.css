@@ -1,0 +1,233 @@
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {padding : 0 ;}
+.woocommerce-Price-amount { color : black}
+
+/*div that have the marerials group*/
+.ccconcon {display : flex ; margin : 6px 0 ; flex-wrap: wrap}
+.ccconcon p {margin : 0 2px ;}
+
+/*div that have the marerials group better name*/
+.material-group {display : flex ; margin : 6px 0 ; flex-wrap: wrap}
+.material-group p {margin : 0 2px ;}
+
+/*archive page material item border */
+.cccon {width: 24px ; height : 24px ; border : 1px solid #999999 ; border-radius : 50% ; display : flex ; align-items : center; 
+justify-content : center ; margin : 0 2px}
+.cccon:hover {border : 1px solid #252525 }
+.cccon.active {border : 1px solid #252525 }
+
+/* archive page material item border better name */
+.material-border {width: 24px ; height : 24px ; border : 1px solid #999999 ; border-radius : 50% ; display : flex ; align-items : center; 
+justify-content : center ; margin : 0 2px}
+.material-border:hover {border : 1px solid #252525 }
+.material-border.active {border : 1px solid #252525 }
+
+/* material link */
+.cc {width: 18px ; height: 18px ; border-radius: 50% ; background-size: cover !important; position : relative }
+
+/* material link better name */
+.material-link {width: 18px ; height: 18px ; border-radius: 50% ; background-size: cover !important; position : relative ; }
+
+.material-link p {display : none}
+
+
+
+.color-container {display: flex ; align-items : center ; width : 100% ; justify-content : center}
+.material {width : 100px}
+.color-container .ccconcon {display : flex ; margin : 6px 0 ; text-align : center ; width : 84%}
+.color-container p {margin : 0 2px ;}
+.color-container .cccon {width: 40px ; height : 40px ; border : 1px solid #999999 ; border-radius : 50% ; display : flex ; align-items : center; 
+justify-content : center ; margin : 2px ; opacity : 0.5 ; transition : 0.5s}
+.color-container .cccon:hover {border : 1px solid #252525 ; opacity : 1 }
+.color-container .cccon.active {border : 2px solid #252525 ; opacity : 1 }
+.color-container .cccon a {display: flex ; top : 0 !important}
+.color-container .cc {  width: 26px ; height: 26px ; border-radius: 50% }
+
+
+.color-container {display: flex ; align-items : center ; width : 100% ; justify-content : center}
+.color-container .material-group {display : flex ; margin : 6px 0 ; text-align : center ; width : 84%}
+.color-container p {margin : 0 2px ;}
+.color-container .material-border {width: 40px ; height : 40px ; border : 1px solid #999999 ; border-radius : 50% ; display : flex ; align-items : center; 
+justify-content : center ; margin : 2px ; opacity : 0.5 ; transition : 0.5s}
+.color-container .material-border:hover {border : 1px solid #252525 ; opacity : 1 }
+.color-container .material-border.active {border : 2px solid #252525 ; opacity : 1 }
+.color-container ..material-border a {display: flex ; top : 0 !important}
+.color-container .material-link {  width: 26px ; height: 26px ; border-radius: 50% }
+
+
+
+
+.gold 
+{background: linear-gradient( -45deg , 
+rgba(255,255,255,0.5) 20%, 
+rgba(255,255,255,0) 26%, 
+rgba(255,255,255,0) 30%, 
+rgba(255,255,255,0.5) 36%, 
+rgba(255,255,255,0.5) 40% , 
+rgba(255,255,255,0) 46%, 
+rgba(255,255,255,0) 50%, 
+rgba(255,255,255,0.5) 56%, 
+rgba(255,255,255,0.5) 70%, 
+rgba(255,255,255,0) 76%), 
+#d3bd83; }
+
+.rose-gold 
+{background: linear-gradient( -45deg , 
+rgba(255,255,255,0.5) 20%, 
+rgba(255,255,255,0) 26%, 
+rgba(255,255,255,0) 30%, 
+rgba(255,255,255,0.5) 36%, 
+rgba(255,255,255,0.5) 40% , 
+rgba(255,255,255,0) 46%, 
+rgba(255,255,255,0) 50%, 
+rgba(255,255,255,0.5) 56%, 
+rgba(255,255,255,0.5) 70%, 
+rgba(255,255,255,0) 76%), 
+#FFC6AA; }
+
+.silver 
+{background: linear-gradient( -45deg , 
+rgba(255,255,255,0.5) 20%, 
+rgba(255,255,255,0) 26%, 
+rgba(255,255,255,0) 30%, 
+rgba(255,255,255,0.5) 36%, 
+rgba(255,255,255,0.5) 40% , 
+rgba(255,255,255,0) 46%, 
+rgba(255,255,255,0) 50%, 
+rgba(255,255,255,0.5) 56%, 
+rgba(255,255,255,0.5) 70%, 
+rgba(255,255,255,0) 76%), 
+#D3D3D3; }
+
+.black
+{background: linear-gradient( -45deg , 
+rgba(255,255,255,0.5) 20%, 
+rgba(255,255,255,0) 26%, 
+rgba(255,255,255,0) 30%, 
+rgba(255,255,255,0.5) 36%, 
+rgba(255,255,255,0.5) 40% , 
+rgba(255,255,255,0) 46%, 
+rgba(255,255,255,0) 50%, 
+rgba(255,255,255,0.5) 56%, 
+rgba(255,255,255,0.5) 70%, 
+rgba(255,255,255,0) 76%), 
+black; }
+
+
+
+
+.ccg 
+{background: linear-gradient( -45deg , 
+rgba(255,255,255,0.5) 20%, 
+rgba(255,255,255,0) 26%, 
+rgba(255,255,255,0) 30%, 
+rgba(255,255,255,0.5) 36%, 
+rgba(255,255,255,0.5) 40% , 
+rgba(255,255,255,0) 46%, 
+rgba(255,255,255,0) 50%, 
+rgba(255,255,255,0.5) 56%, 
+rgba(255,255,255,0.5) 70%, 
+rgba(255,255,255,0) 76%), 
+#d3bd83; }
+
+.ccr 
+{background: linear-gradient( -45deg , 
+rgba(255,255,255,0.5) 20%, 
+rgba(255,255,255,0) 26%, 
+rgba(255,255,255,0) 30%, 
+rgba(255,255,255,0.5) 36%, 
+rgba(255,255,255,0.5) 40% , 
+rgba(255,255,255,0) 46%, 
+rgba(255,255,255,0) 50%, 
+rgba(255,255,255,0.5) 56%, 
+rgba(255,255,255,0.5) 70%, 
+rgba(255,255,255,0) 76%), 
+#FFC6AA; }
+
+.ccs 
+{background: linear-gradient( -45deg , 
+rgba(255,255,255,0.5) 20%, 
+rgba(255,255,255,0) 26%, 
+rgba(255,255,255,0) 30%, 
+rgba(255,255,255,0.5) 36%, 
+rgba(255,255,255,0.5) 40% , 
+rgba(255,255,255,0) 46%, 
+rgba(255,255,255,0) 50%, 
+rgba(255,255,255,0.5) 56%, 
+rgba(255,255,255,0.5) 70%, 
+rgba(255,255,255,0) 76%), 
+#D3D3D3; }
+
+.ccb
+{background: linear-gradient( -45deg , 
+rgba(255,255,255,0.5) 20%, 
+rgba(255,255,255,0) 26%, 
+rgba(255,255,255,0) 30%, 
+rgba(255,255,255,0.5) 36%, 
+rgba(255,255,255,0.5) 40% , 
+rgba(255,255,255,0) 46%, 
+rgba(255,255,255,0) 50%, 
+rgba(255,255,255,0.5) 56%, 
+rgba(255,255,255,0.5) 70%, 
+rgba(255,255,255,0) 76%), 
+black; }
+
+.grst {background : url("../stones/(8).webp")}
+.blst {background : url("../stones/(7).webp")}
+.dist {background : url("../stones/(1).webp")}
+.aqst {background : url("../stones/(2).webp")}
+.rest {background : url("../stones/(3).webp")}
+.pust {background : url("../stones/(6).webp")}
+.cyst {background : url("../stones/(10).webp")}
+.grst {background : url("../stones/(8).webp")}
+.grst {background : url("../stones/(8).webp")}
+.grst {background : url("../stones/(8).webp")}
+.grst {background : url("../stones/(8).webp")}
+.grst {background : url("../stones/(8).webp")}
+.grst {background : url("../stones/(8).webp")}
+
+
+.fblue {background : url("../fabric/blue.webp")}
+.fgold {background : url("../fabric/gold.webp")}
+.fgray {background : url("../fabric/gray.webp")}
+.flblue {background : url("../fabric/lblue.webp")}
+.foliver {background : url("../fabric/oliver.webp")}
+.fpink {background : url("../fabric/pink.webp")}
+.fred {background : url("../fabric/red.webp")}
+.frg {background : url("../fabric/rg.webp")}
+.fwhite {background : url("../fabric/white.webp")}
+.fblack {background : url("../fabric/black.webp")}
+
+.mpink-brown {background : url("../fabric/pink-brown.webp")}
+.fwhite-black {background : url("../fabric/white-black.webp")}
+.mwhite-black-m {background : url("../fabric/white-black-m.webp")}
+
+
+.white_stone {background : url("../stones/(1).webp")}
+.lightblue_stone {background : url("../stones/(2).webp")}
+.red_stone {background : url("../stones/(3).webp")}
+.green_stone {background : url("../stones/(4).webp")}
+.black_stone {background : url("../stones/(5).webp")}
+.purple_stone {background : url("../stones/(6).webp")}
+.blue_stone {background : url("../stones/(7).webp")}
+.lightgreen_stone {background : url("../stones/(8).webp")}
+.pink_stone {background : url("../stones/(9).webp")}
+.cyan_stone {background : url("../stones/(10).webp")}
+.gray_stone {background : url("../stones/(11).webp")}
+.brown_stone {background : url("../stones/(12).webp")}
+.coffee_stone {background : url("../stones/(13).webp")}
+
+
+.fabric_blue {background : url("../fabric/blue.webp")}
+.fabric_gold {background : url("../fabric/gold.webp")}
+.fabric_gray {background : url("../fabric/gray.webp")}
+.fabric_light_blue {background : url("../fabric/lblue.webp")}
+.fabric_oliver {background : url("../fabric/oliver.webp")}
+.fabric_pink {background : url("../fabric/pink.webp")}
+.fabric_red {background : url("../fabric/red.webp")}
+.fabric_rosegold {background : url("../fabric/rg.webp")}
+.fabric_white {background : url("../fabric/white.webp")}
+.fabric_black {background : url("../fabric/black.webp")}
+
+.fabric_white_black {background : url("../fabric/white-black.webp")}
+.marble_pink_brown {background : url("../fabric/pink-brown.webp")}
+.marble_white_black {background : url("../fabric/white-black-m.webp")}

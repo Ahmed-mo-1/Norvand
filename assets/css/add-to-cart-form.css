@@ -1,0 +1,72 @@
+
+.woocommerce-variation-add-to-cart div.quantity {float : auto !important}
+.woocommerce-variation-add-to-cart-disabled div.quantity {float : auto !important}
+/*//vartaions end*/
+
+.woocommerce ul.products li.product a img {margin : 0 !important}
+
+
+.woocommerce div.product form.cart table {width : 100%}
+.woocommerce div.product form.cart table .qty {width : auto !important}
+.woocommerce-grouped-product-list-item__label a{text-decoration : none ; color : black}
+
+.woocommerce div.product div.summary {padding : 0 8px}
+
+.woocommerce div.product form.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.woocommerce div.product form.cart .button {padding : 0 !important ; font-weight : 400 ; border-radius : 0}
+
+
+
+
+/*button[name="add-to-cart"], button[type="submit"] {
+display: block;
+background: black !important;
+width: 80%;
+margin: 10px auto;
+height : 40px;
+color : white;
+}*/
+
+
+.woocommerce div.product form.cart {display : flex ; align-items : center ;
+    justify-content : center;
+}
+.quantity {display : block }
+.woocommerce-product-details__short-description {display : none }
+.product_meta {display : none }
+
+#pofw_product_options {width : 100%}
+
+
+
+.wpcpo-options {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wpcpo-option.wpcpo-option-checkbox {order: 10;}
+.wpcpo-option.wpcpo-option-textarea{order: 11;}
+.wpcpo-option.wpcpo-option-textarea.wpcpo-option-field {height : 120px}
+
+
+
+/* paymeny method label in checkout*/
+.wc_payment_method label {padding : 0 10px}
+form.woocommerce-checkout a, .woocommerce-form-login-toggle a,.woocommerce-form-coupon-toggle a, .woocommerce-form-login a  {color : black ; text-decoration : none ; border-bottom : 1px solid black}
+
+
+/*coupon form*/
+#wc-block-components-totals-coupon__form {flex-direction : column}
+.wc-block-components-totals-coupon__form .wc-block-components-totals-coupon__button {margin : 10px auto !important ; padding : 0 !important ; width : 100%}
+.wc-block-components-totals-coupon a {text-decoration : none ; color : white ; background : black ; padding : 10px 20px}
+
+
+/*checkout*/
+.wc-block-components-checkout-place-order-button {background : black ; border : none ; color : white}

@@ -1,0 +1,76 @@
+<?php
+defined( 'ABSPATH' ) || exit;
+global $product;
+if ( ! $product ) {return;}
+$attachment_ids = $product->get_gallery_image_ids();
+
+//swiper5 > product-gallery
+?>
+
+<div class="product-gallery sper-container">
+<ul class="swiper-wrapper">
+
+<?php
+$main_image_id = $product->get_image_id();
+$main_image_url = wp_get_attachment_image_url( $main_image_id, 'full' );
+?>
+
+<li class="swiper-slide">
+
+<div class="swiper-zoom-container">
+<img class="relative swiper-zoom-target" src="<?php echo esc_url( $main_image_url ); ?>" alt="<?php echo esc_attr__( 'Product main image', 'woocommerce' ); ?>">
+</div>
+
+<div class="zoom-icon" onclick="openImageInNewTab(this)">
+<img alt="zoom" src="<?php bloginfo('template_url')?>/assets/svgs/zoom.svg">
+</div>
+
+</li>
+
+
+
+<?php
+foreach ( $attachment_ids as $attachment_id ) {
+$image_url = wp_get_attachment_image_url( $attachment_id, 'full' ); ?>
+
+<li class="swiper-slide relative">
+
+<div class="swiper-zoom-container">
+<img class="swiper-zoom-target" src="<?php echo esc_url( $image_url ); ?>" alt="<?php echo esc_attr__( 'Product gallery image', 'woocommerce' ); ?>">
+</div>
+
+<div class="zoom-icon" onclick="openImageInNewTab(this)">
+<img alt="zoom" src="<?php bloginfo('template_url')?>/assets/svgs/zoom.svg">
+</div>
+
+</li>
+
+<?php	
+} 
+ ?>
+
+
+<?php echo do_shortcode('[woovideo]'); ?>
+
+<li class="swiper-slide relative">
+
+<div class="swiper-zoom-container">
+<img class="swiper-zoom-target" src="<?php bloginfo('template_url') ?>/assets/imgs/packaging.webp" alt="packaging">
+</div>
+
+<div class="zoom-icon" onclick="openImageInNewTab(this)">
+<img alt="zoom" src="<?php bloginfo('template_url')?>/assets/svgs/zoom.svg"></div>
+</li>
+
+</ul>
+
+<div class="swiper-pagination"></div>
+<!--<a id="a4gtl" href="#getthelook">احصل علي الاطلالة</a>-->
+<?php do_shortcode('[backtocategory]')?>
+</div>
+
+
+
+<?php
+include_once get_theme_file_path('include/shortcodes/shortcode_css/imggallery.php');
+?>

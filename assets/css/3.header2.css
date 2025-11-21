@@ -1,0 +1,146 @@
+.header{
+position: sticky;
+z-index: 99;
+top : 0 ; 
+background : #ffffff ; 
+transition : 0.1s ;
+display : flex ; 
+align-items : center ;
+justify-content : space-between ;
+padding : 20px
+}
+
+/*icon group*/
+.icons-group { display : flex ; align-items : center }
+
+
+/* humberger menu */
+.humberger {cursor : pointer}
+@media(max-width : 700px){ .humberger {display : block} }
+@media(min-width : 700px){ .humberger {display : none} }
+
+/* mobile cart icon */
+.mobile-cart-icon {cursor : pointer}
+@media(max-width : 700px){ .mobile-cart-icon {display : flex} }
+@media(min-width : 700px){ .mobile-cart-icon {display : none} }
+
+.icon {width : 18px ; height : auto}
+.mobileicon {width : 14px ; height : auto}
+
+.desktop-icon {position : relative ; margin : 0 10px ; cursor : pointer}
+@media(max-width : 700px){ .desktop-icon {display : none} }
+@media(min-width : 700px){ .desktop-icon {display : block} }
+
+/* overlay behind phone menu */
+.overlay{ position: fixed; background-color: rgba(0,0,0,0.5); right:0; top:0; width: 100%; height: 120%; z-index: 1098; visibility: hidden; opacity:0; transition: all 0.5s ease;}
+.overlayactive{visibility: visible; opacity:1 }
+
+
+.mobile-menu-head-icons-group-container {
+display : flex ;
+justift-content : space-between ;
+align-items : center ;
+}
+
+.mobile-icon {margin : 0 10px ; cursor : pointer}
+
+
+
+
+.menu-header {
+display : flex ;
+align-items : center ; 
+justify-content : space-between ; 
+height: 50px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+z-index: 501;
+position: sticky;
+background-color: var(--main-color);
+padding: 0 16px;
+}
+
+
+
+
+
+.search-menu{position : fixed ;
+width: 100%;
+max-width : 500px;
+background-color:#ffffff;
+left:0;
+top:0;
+overflow-y : scroll ;
+height: 100vh ;
+transform: translate(-100%);
+transition: all 0.5s ease;
+z-index: 1099;
+}
+
+/*button[name="update_cart"]{display : none !important}*/
+
+.search-menu.active{position : fixed ; top : 0 ; left : 0 ; height : 100vh ; transform: translate(0%) ; padding : 0 0 60px}
+
+
+
+
+
+.leftmenu{position : fixed ;
+width: 100%;
+max-width : 500px;
+background-color:#ffffff;
+left:0;
+top:0;
+overflow-y : scroll ;
+height: 100vh ;
+transform: translate(-100%);
+transition: all 0.5s ease;
+z-index: 1099;
+}
+
+/*button[name="update_cart"]{display : none !important}*/
+
+.leftmenu.active{position : fixed ; top : 0 ; left : 0 ; height : 100vh ; transform: translate(0%) ; padding : 0 0 60px}
+
+.over {position : fixed ; width : 100vw ; height : 100vh ; background : #00000050 ; visibility : hidden ; opacity : 0 ; z-index: 1098 ; overflow-y : auto}
+
+.over.active {position : fixed ; width : 100vw ; height : 100vh ; background : #00000050 ; visibility : visible ; opacity : 1 ; overflow-y : auto}
+
+
+
+/* menu cart*/
+.leftmenu .form-2cards {
+display : block;
+width : 100% ;
+justify-content : space-between ;
+}
+
+.leftmenu .form-2cards > div {width : 100%}
+.leftmenu .form-2cards > div:first-child {margin-bottom : 20px}
+
+
+
+/*
+.leftmenu .woocommerce-notices-wrapper, .leftmenu .wc-empty-cart-message {display : none}
+p.return-to-shop {margin: auto;text-align: center;}
+p.return-to-shop a {background : black !important ; color : white !important}
+
+.woocommerce .cart-collaterals .cross-sells, .woocommerce-page .cart-collaterals .cross-sells {width : 100%}
+
+
+
+
+.leftmenu > .woocommerce .products ul, .leftmenu > .woocommerce ul.products {
+    display: flex !important;
+    align-items : center ;
+    justify-content : center;
+    margin: 0px !important;
+    padding: 0;
+    list-style: none outside;
+    clear: both;
+    flex-wrap: wrap !important;
+}
+
+.leftmenu > .woocommerce ul.products li.product, .leftmenu > .woocommerce-page ul.products li.product {width : 48% !important ; margin : 0 !important ; padding : 2px}
+.leftmenu > .woocommerce ul.products li.product a {color : black !important}
+.leftmenu > .woocommerce ul.products li.product a img { margin : 0 !important; }
+*/

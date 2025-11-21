@@ -1,0 +1,24 @@
+
+img {
+    width: 100%;
+	height : auto;
+}
+
+.herocontent {position : absolute ; bottom : 0 ; right : 0 ; padding : 40px ; width : 100% ; display: flex ; align-items : start ; gap : 10px ; flex-direction : column}
+
+a > .btn2 {width : auto !important ; background : white !important ; color : black !important;
+margin : 20px 0 !important ; border : none !important}
+
+
+@media(min-width : 700px){
+.herosection {width : 100% ; color : white ; position : relative ;}
+.herosection p {color : white}
+.mherosection {display : none}
+}
+
+@media(max-width : 700px){
+.herosection {display : none}
+.mherosection {width : 100% ; color : white ; position : relative ;}
+.mherosection p {color : white}
+}
+

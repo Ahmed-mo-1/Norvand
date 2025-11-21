@@ -1,0 +1,59 @@
+.mbg {background : var(--main-color);
+color : var(--text-color);}
+
+.txtc {text-align : center ;}
+
+.flx {display : flex;}
+.spbt {justify-content : space-between;}
+.jcc {justify-content : center;}
+.aic {align-items : center;}
+
+
+.deskhide {display : none}
+@media(max-width: 991px){
+.deskhide {display : block}
+}
+
+.mobhide {display : block}
+@media(max-width: 991px){
+.mobhide {display : none}
+}
+
+@media(max-width: 991px){
+.fb {display : flex ; flex-direction : column}
+}
+
+@media(min-width: 991px){
+.fb {display : flex}
+}
+
+.pointer {cursor : pointer}
+.relative {position : relative}
+.absolute {position : absolute}
+.bw {background : black ; color : white ; transition : 0.5s}
+.bw:hover {background : white ; color : black ;}
+.wb {background : white ; color : black ;}
+
+.gap10-30 {gap : 10px ; transition : 0.2s}
+.gap10-30:hover {gap : 30px !important}
+
+.t0 {top : 0px}
+.l-8 {left : -8px}
+
+.br50 {border-radius : 50%}
+
+.h14 {height : 14px}
+.h40px {height : 40px}
+.fs10 {font-size : 10px}
+
+.tac {text-align : center}
+
+.fw1 {font-weight: 100}
+.fw2 {font-weight: 200}
+.fw3 {font-weight: 300}
+.fw4 {font-weight: 400}
+.fw5 {font-weight: 500}
+.fw6 {font-weight: 600}
+.fw7 {font-weight: 700}
+.fw8 {font-weight: 800}
+.fw9 {font-weight: 900}

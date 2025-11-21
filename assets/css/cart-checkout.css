@@ -1,0 +1,92 @@
+.cartmenu .woocommerce-cart-form {width : 90% ; margin : auto}
+.cartmenu .cart-collaterals {width : 90% !important ; margin : auto}
+.cartmenu .product-name a {color : black ; text-decoration : none}
+.cartmenu .product-name a:hover {color : black ; text-decoration : underline}
+
+.woocommerce a.remove:hover {background : none ; color : #555 !important}
+.woocommerce a.remove {background : none ; color : black !important}
+
+.cartmenu #coupon_code {width : 100% ; padding : 0 10px ; height : 40px ; margin : 10px auto}
+.cartmenu .button[name="apply_coupon"]{width : 100% !important ; color : white !important}
+.cartmenu .coupon {float : none ; width : 100%; margin-bottom : 10px}
+.cartmenu .actions {text-align : center;}
+.cartmenu .button[name="update_cart"] {width : 100% !important ; color : white !important}
+.cartmenu .checkout-button {width : 100% ; background : black !important ; text-align : center }
+.cartmenu .wc-proceed-to-checkout .checkout-button {color : white ; text-decoration : none}
+.cartmenu .woocommerce table.shop_table td {border : 1px sollid #999999 !important}
+
+.cartmenu .woocommerce table.shop_table_responsive tr td::before,
+.cartmenu  .woocommerce-page table.shop_table_responsive tr td::before {
+display : none !important;
+}
+.cartmenu .product-thumbnail {display : flex !important ; width : 100px ; margin : auto}
+.woocommerce-cart-form__contents td {text-align : right !important}
+
+form.checkout.woocommerce-checkout {
+    padding: 20px;
+}
+
+.cartmenu .woocommerce table.shop_table_responsive tr:nth-child(2n) td, .woocommerce-page table.shop_table_responsive tr:nth-child(2n) td {background : none}
+
+.cartmenu .shop_table_responsive {margin-top : 20px !important }
+.cartmenu .woocommerce table.shop_table_responsive tr td,
+.cartmenu  .woocommerce-page table.shop_table_responsive tr td {
+    text-align: right!important;
+}
+
+.cartmenu a.button.wc-backward, a.checkout-button.button.alt.wc-forward {
+    padding: 20px;
+}
+
+
+.woocommerce-checkout {width : 100%; margin : auto}
+/*.woocommerce-checkout input, .woocommerce-checkout select {height : 40px ; padding : 0 10px}*/
+#payment {background : none !important}
+.woocommerce-terms-and-conditions-wrapper {display : none}
+
+
+
+/*menu cart*/
+.woocommerce-cart-form, .cart-collaterals {width : 100% ; float : none ; padding : 20px}
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {width : 100% ; float : none ; padding : 20px}
+
+.cartmenu .woocommerce .cart-collaterals .cart_totals,.cartmenu .woocommerce-page .cart-collaterals .cart_totals {width : 100% ; float : none}
+.cartmenu thead {display : none}
+.cartmenu .product-name, .cartmenu .product-price, .cartmenu .product-quantity {display : block !important}
+.cartmenu.woocommerce {margin : 20px auto ; padding : 20px}
+
+
+
+
+
+.cartmenu tr.woocommerce-cart-form__cart-item.cart_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartmenu .woocommerce table.shop_table_responsive tr td,
+.cartmenu .woocommerce-page table.shop_table_responsive tr td {
+    text-align: center !important;
+}
+
+
+.cartmenu td.product-subtotal {
+    text-align: center;
+    border-bottom: 1px #cccccc solid !important;
+}
+
+
+
+
+.cartmenu .woocommerce td.product-name .wc-item-meta dd,
+.cartmenu  .woocommerce td.product-name dl.variation dd {
+    margin: 0;
+    display: flex;
+}
+
+
+
+.woocommerce #content table.cart td.actions .coupon, .woocommerce table.cart td.actions .coupon, .woocommerce-page #content table.cart td.actions .coupon, .woocommerce-page table.cart td.actions .coupon {width : 100%}
+
+
+

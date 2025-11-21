@@ -1,0 +1,16 @@
+.mm {position : fixed ; width: 100%; max-width : 500px; padding : 0 0 60px; 
+background-color:#ffffff; left:0; top:0; overflow-y : scroll ;
+height: 100vh ; transition: all 0.5s ease; z-index: 1099; }
+.cartmenu10{transform: translate(-100%)}
+.cartmenu10.active1{transform: translate(0%) ; }
+.ovver {position : fixed ; width : 100vw ; height : 100vh ; background : #00000050 ; z-index: 1098 ; overflow-y : auto ; top : 0 ; right : 0 }
+.over10 {visibility : hidden ; opacity : 0 ; }
+.over10.active1 {visibility : visible ; opacity : 1}
+.menu-header {
+display: flex; height: 50px; border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+justify-content: space-between; align-items: center; z-index: 501;
+position: sticky; background-color: var(--main-color); top: 0; padding: 0 16px;
+}
+ul.attribute-terms-list {list-style : none ; display : flex}
+ul.attribute-terms-list li{background : none ; text-align : center ; margin : 10px auto ; padding : 10px 0}
+ul.attribute-terms-list li a {color : #00000000 ; text-decoration : none}
