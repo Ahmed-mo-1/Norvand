@@ -115,7 +115,7 @@ function custom_login_override() {
     
     return; 
 }
-//add_action('login_init', 'custom_login_override');
+add_action('login_init', 'custom_login_override');
 
 // Handle AJAX login
 add_action('wp_ajax_nopriv_custom_ajax_login', 'custom_ajax_login_handler');
