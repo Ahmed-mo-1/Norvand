@@ -70,49 +70,53 @@ function custom_post_type_portfolio() {
 
 include_once 'dashboard.php';
 
+
+
 function custom_login_override() {
     global $pagenow;
 
-    // Only run on wp-login.php
+    // Trigger ONLY on wp-login.php
     if ($pagenow !== 'wp-login.php') {
         return;
     }
 
-    $action = isset($_GET['action']) ? $_GET['action'] : '';
+    // If already logged in → redirect to dashboard
+    if (is_user_logged_in()) {
+        wp_safe_redirect(admin_url());
+        exit;
+    }
 
-    // Actions that WordPress must handle itself
-    $allow_wp_actions = array(
-        'login',
+    // Sanitize the requested action
+    $action = isset($_GET['action']) ? sanitize_text_field($_GET['action']) : '';
+
+    // List of actions that WordPress should handle (e.g., password reset, logout)
+    $wp_allowed_actions = array(
+        'postpass',
         'logout',
         'lostpassword',
         'retrievepassword',
         'resetpass',
         'rp',
         'confirm_admin_email',
-        'postpass'
+        'login' // Internal WP login action
     );
 
-    // Allow WP to handle login POSTs
+    // 1. Allow POST login attempts (handled by the custom-login.php file)
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        // We let the script continue to include custom-login.php below,
+        // where the POST logic is executed.
+    }
+
+    // 2. Allow internal WP actions to bypass the custom template
+    else if (in_array($action, $wp_allowed_actions, true)) {
         return;
     }
 
-    if (in_array($action, $allow_wp_actions, true)) {
-        return;
-    }
-
-    // If logged in → go to dashboard
-    if (is_user_logged_in()) {
-        wp_safe_redirect(admin_url());
-        exit;
-    }
-
-    // Load custom login template
+    // 3. If none of the above, show the custom login page
     require get_template_directory() . '/custom-login.php';
-    exit;
+    exit; // Stop further WP execution to prevent loading the default login form
 }
-add_action('template_redirect', 'custom_login_override');
-
+add_action('login_init', 'custom_login_override');
 
  
 
