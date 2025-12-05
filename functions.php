@@ -3,6 +3,105 @@
 
 
 
+// Redirect wp-login.php → /custom-login/
+function custom_redirect_wp_login_page() {
+    $login_page = home_url('/custom-login/');
+    $page_requested = basename($_SERVER['REQUEST_URI']);
+
+    if ($page_requested === 'wp-login.php' && $_SERVER['REQUEST_METHOD'] === 'GET') {
+        wp_redirect($login_page);
+        exit;
+    }
+}
+add_action('init', 'custom_redirect_wp_login_page');
+
+// Redirect on login failure
+function custom_login_failed() {
+    wp_redirect(home_url('/custom-login/?login=failed'));
+    exit;
+}
+add_action('wp_login_failed', 'custom_login_failed');
+
+// Redirect if fields are empty
+function custom_verify_login_fields($user, $username, $password) {
+    if ($username === '' || $password === '') {
+        wp_redirect(home_url('/custom-login/?login=empty'));
+        exit;
+    }
+    return $user;
+}
+add_filter('authenticate', 'custom_verify_login_fields', 30, 3);
+
+// Redirect after logout
+function custom_logout_redirect() {
+    wp_redirect(home_url('/custom-login/?logout=success'));
+    exit;
+}
+add_action('wp_logout', 'custom_logout_redirect');
+
+
+/* -----------------------------------------------------------
+   AJAX LOGIN HANDLER
+----------------------------------------------------------- */
+
+function custom_ajax_login_handler() {
+
+    // Verify nonce
+    check_ajax_referer('custom_login_action', 'nonce');
+
+    // Get form fields
+    $username = isset($_POST['username']) ? sanitize_user($_POST['username']) : '';
+    $password = isset($_POST['password']) ? $_POST['password'] : '';
+    $remember = isset($_POST['remember']) && $_POST['remember'] === 'true';
+
+    // Try login
+    $user = wp_signon([
+        'user_login'    => $username,
+        'user_password' => $password,
+        'remember'      => $remember
+    ]);
+
+    // Login failed
+    if (is_wp_error($user)) {
+        wp_send_json_error([
+            'message' => 'Invalid username or password.'
+        ]);
+    }
+
+    // Success
+    wp_send_json_success([
+        'message'   => 'Login successful!',
+        'user_name' => $user->display_name
+    ]);
+}
+
+// AJAX hooks
+add_action('wp_ajax_nopriv_custom_ajax_login', 'custom_ajax_login_handler');
+add_action('wp_ajax_custom_ajax_login', 'custom_ajax_login_handler');
+
+
+/* -----------------------------------------------------------
+   ALLOW PAGE TEMPLATE FOR CUSTOM LOGIN
+----------------------------------------------------------- */
+
+// This ensures custom-login.php template is allowed
+function custom_allow_login_template( $templates ) {
+    $templates['custom-login.php'] = 'Custom Login';
+    return $templates;
+}
+add_filter('theme_page_templates', 'custom_allow_login_template');
+
+// Load custom-login.php template when used
+function custom_load_login_template($template) {
+    if (is_page_template('custom-login.php')) {
+        $theme_file = get_template_directory() . '/custom-login.php';
+        if (file_exists($theme_file)) {
+            return $theme_file;
+        }
+    }
+    return $template;
+}
+add_filter('template_include', 'custom_load_login_template');
 
 
 
@@ -69,52 +168,7 @@ function custom_post_type_portfolio() {
 
 
 //include_once 'dashboard.php';
-function custom_login_override() {
-    global $pagenow;
 
-    // Trigger ONLY on wp-login.php
-    if ($pagenow !== 'wp-login.php') {
-        return;
-    }
-
-    // If logged in → redirect to dashboard
-    if (is_user_logged_in()) {
-        wp_safe_redirect(admin_url());
-        exit;
-    }
-
-    $action = isset($_GET['action']) ? sanitize_text_field($_GET['action']) : '';
-
-    // Let WordPress handle these
-    $wp_allowed = array(
-        'postpass',
-        'logout',
-        'lostpassword',
-        'retrievepassword',
-        'resetpass',
-        'rp',
-        'confirm_admin_email',
-        'login' // WP internal login
-    );
-
-    // Allow POST login attempts
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        return;
-    }
-
-    // Allow internal WP actions
-    if (in_array($action, $wp_allowed, true)) {
-        return;
-    }
-
-    // Show custom login page
-    require get_template_directory() . '/custom-login.php';
-    exit;
-}
-add_action('login_init', 'custom_login_override');
-
-
- 
 
 class WP_Translate_Nav_Menu_Walker extends Walker_Nav_Menu {
     // Override the start_el method
