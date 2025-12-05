@@ -184,7 +184,7 @@ function custom_post_type_portfolio() {
 
 
 
-//include_once 'dashboard.php';
+include_once 'dashboard.php';
 
 
 class WP_Translate_Nav_Menu_Walker extends Walker_Nav_Menu {
