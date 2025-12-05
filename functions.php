@@ -67,42 +67,51 @@ function custom_post_type_portfolio() {
 //add_action('init', 'custom_post_type_portfolio', 0);
 
 
+
 include_once 'dashboard.php';
 
 function custom_login_override() {
-    $request = $_SERVER['REQUEST_URI'];
+    global $pagenow;
 
-    if ( strpos($request, 'wp-login.php') !== false ) {
+    // Only run on wp-login.php
+    if ($pagenow !== 'wp-login.php') {
+        return;
+    }
 
-        $action = isset($_GET['action']) ? $_GET['action'] : '';
+    $action = isset($_GET['action']) ? $_GET['action'] : '';
 
-        // Allow core WP actions, including login
-        $allow_wp_actions = array(
-            'logout',
-            'lostpassword',
-            'retrievepassword',
-            'resetpass',
-            'rp',
-            'login',       // crucial for preventing redirect loop
-            'postpass'     // password-protected posts
-        );
+    // Actions that WordPress must handle itself
+    $allow_wp_actions = array(
+        'login',
+        'logout',
+        'lostpassword',
+        'retrievepassword',
+        'resetpass',
+        'rp',
+        'confirm_admin_email',
+        'postpass'
+    );
 
-        if ( in_array($action, $allow_wp_actions) ) {
-            return; // allow WP to handle these
-        }
+    // Allow WP to handle login POSTs
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        return;
+    }
 
-        // If user is already logged in, redirect to admin
-        if ( is_user_logged_in() ) {
-            wp_redirect( admin_url() );
-            exit;
-        }
+    if (in_array($action, $allow_wp_actions, true)) {
+        return;
+    }
 
-        // Load custom login page
-        include get_template_directory() . '/custom-login.php';
+    // If logged in → go to dashboard
+    if (is_user_logged_in()) {
+        wp_safe_redirect(admin_url());
         exit;
     }
+
+    // Load custom login template
+    require get_template_directory() . '/custom-login.php';
+    exit;
 }
-add_action('init', 'custom_login_override');
+add_action('template_redirect', 'custom_login_override');
 
 
  
