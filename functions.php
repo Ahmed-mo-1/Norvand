@@ -1,6 +1,6 @@
 <?php 
 
-include_once 'dashboard.php';
+
 
 
 
@@ -67,22 +67,28 @@ function custom_post_type_portfolio() {
 //add_action('init', 'custom_post_type_portfolio', 0);
 
 
-
-
+include_once 'dashboard.php';
 
 function custom_login_override() {
     $request = $_SERVER['REQUEST_URI'];
 
-    // Only override wp-login.php when NOT performing actions like logout, lostpassword, resetpass
     if ( strpos($request, 'wp-login.php') !== false ) {
 
         $action = isset($_GET['action']) ? $_GET['action'] : '';
 
-        // Allow WordPress to handle logout and other core actions
-        $allow_wp_actions = array('logout', 'lostpassword', 'retrievepassword', 'resetpass', 'rp');
+        // Allow core WP actions, including login
+        $allow_wp_actions = array(
+            'logout',
+            'lostpassword',
+            'retrievepassword',
+            'resetpass',
+            'rp',
+            'login',       // crucial for preventing redirect loop
+            'postpass'     // password-protected posts
+        );
 
         if ( in_array($action, $allow_wp_actions) ) {
-            return; // Do NOT override, let WordPress handle it
+            return; // allow WP to handle these
         }
 
         // If user is already logged in, redirect to admin
