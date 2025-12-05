@@ -72,6 +72,7 @@ include_once 'dashboard.php';
 
 
 
+
 function custom_login_override() {
     global $pagenow;
 
@@ -88,6 +89,12 @@ function custom_login_override() {
 
     // Sanitize the requested action
     $action = isset($_GET['action']) ? sanitize_text_field($_GET['action']) : '';
+
+    // Check for critical GET parameters like 'reauth' or 'checkemail' that WP needs to handle internally.
+    // If these are present, we let WP use the default page to prevent redirect loops.
+    if (isset($_GET['reauth']) || isset($_GET['checkemail'])) {
+        return;
+    }
 
     // List of actions that WordPress should handle (e.g., password reset, logout)
     $wp_allowed_actions = array(
@@ -109,7 +116,6 @@ function custom_login_override() {
 
     // 2. Check if we should load the custom template.
     // We ONLY load the custom page if it is the default login view (empty action) OR a POST submission.
-    // This explicit check helps prevent redirect loops on subdirectory/multisite installs.
     $is_default_view = empty($action) && $_SERVER['REQUEST_METHOD'] === 'GET';
     $is_login_post = $_SERVER['REQUEST_METHOD'] === 'POST';
 
@@ -124,6 +130,8 @@ function custom_login_override() {
     return; 
 }
 add_action('login_init', 'custom_login_override');
+
+// ... other functions in your functions.php file ...
 
  
 
