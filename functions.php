@@ -73,10 +73,10 @@ include_once 'dashboard.php';
 
 
 function custom_login_override() {
-    global $pagenow;
+    // Check if we're on the login page
+    $is_login_page = in_array($GLOBALS['pagenow'], array('wp-login.php', 'wp-register.php'));
     
-    // Only trigger on wp-login.php
-    if ($pagenow !== 'wp-login.php') {
+    if (!$is_login_page) {
         return;
     }
     
@@ -104,18 +104,38 @@ function custom_login_override() {
         return;
     }
     
-    // Check if we should load the custom template
-    $is_default_view = empty($action) && $_SERVER['REQUEST_METHOD'] === 'GET';
+    // Check if we should load the custom template (only GET requests with no action or 'login' action)
+    $is_default_view = (empty($action) || $action === 'login') && $_SERVER['REQUEST_METHOD'] === 'GET';
     
     if ($is_default_view) {
-        // Show custom login page
-        require get_template_directory() . '/custom-login.php';
-        exit;
+        // Try child theme first
+        $custom_login_file = get_stylesheet_directory() . '/custom-login.php';
+        
+        // Fallback to parent theme
+        if (!file_exists($custom_login_file)) {
+            $custom_login_file = get_template_directory() . '/custom-login.php';
+        }
+        
+        // Load custom login page if file exists
+        if (file_exists($custom_login_file)) {
+            require $custom_login_file;
+            exit;
+        } else {
+            // File not found - log error for debugging
+            error_log('Custom login file not found at: ' . $custom_login_file);
+        }
     }
     
     return; 
 }
-add_action('login_init', 'custom_login_override');
+// Use login_head hook as backup if login_init doesn't work on your setup
+add_action('login_init', 'custom_login_override', 1);
+add_action('login_head', 'custom_login_override_backup', 1);
+
+function custom_login_override_backup() {
+    // This runs if login_init didn't catch it
+    custom_login_override();
+}
 
 // Handle AJAX login
 add_action('wp_ajax_nopriv_custom_ajax_login', 'custom_ajax_login_handler');
@@ -158,6 +178,21 @@ function redirect_logged_in_users_from_login() {
     
     if ($pagenow === 'wp-login.php' && is_user_logged_in() && !isset($_GET['action'])) {
         wp_safe_redirect(admin_url());
+        exit;
+    }
+}
+
+// Add this to test if the function is being called
+add_action('init', 'test_custom_login_setup');
+function test_custom_login_setup() {
+    // Visit yourdomain.com/?test_login_setup=1 to see if files exist
+    if (isset($_GET['test_login_setup'])) {
+        echo "<h2>Custom Login Setup Test</h2>";
+        echo "<p><strong>Child Theme Path:</strong> " . get_stylesheet_directory() . "</p>";
+        echo "<p><strong>Custom Login File Exists (Child):</strong> " . (file_exists(get_stylesheet_directory() . '/custom-login.php') ? 'YES ✓' : 'NO ✗') . "</p>";
+        echo "<p><strong>Parent Theme Path:</strong> " . get_template_directory() . "</p>";
+        echo "<p><strong>Custom Login File Exists (Parent):</strong> " . (file_exists(get_template_directory() . '/custom-login.php') ? 'YES ✓' : 'NO ✗') . "</p>";
+        echo "<p><strong>AJAX Handler Registered:</strong> " . (has_action('wp_ajax_nopriv_custom_ajax_login') ? 'YES ✓' : 'NO ✗') . "</p>";
         exit;
     }
 }
