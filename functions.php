@@ -1,19 +1,5 @@
-<?php
-// FORCE CUSTOM LOGIN - Remove after testing
-add_action('plugins_loaded', function() {
-    if (strpos($_SERVER['REQUEST_URI'], 'wp-login.php') !== false) {
-        $action = isset($_GET['action']) ? $_GET['action'] : '';
-        $allowed = array('logout', 'lostpassword', 'retrievepassword', 'resetpass', 'rp');
-        
-        if (!in_array($action, $allowed) && $_SERVER['REQUEST_METHOD'] === 'GET') {
-            $file = get_stylesheet_directory() . '/custom-login.php';
-            if (file_exists($file)) {
-                require $file;
-                exit;
-            }
-        }
-    }
-}, 1);
+<?php 
+
 
 
 
@@ -82,37 +68,25 @@ function custom_post_type_portfolio() {
 
 
 
-include_once 'dashboard.php';
-
-
-
-
+//include_once 'dashboard.php';
 function custom_login_override() {
-    // More robust check for login page that works with subdirectory installs
-    if (!isset($GLOBALS['pagenow'])) {
+    global $pagenow;
+
+    // Trigger ONLY on wp-login.php
+    if ($pagenow !== 'wp-login.php') {
         return;
     }
-    
-    $is_login_page = ($GLOBALS['pagenow'] === 'wp-login.php');
-    
-    // Additional check for subdirectory installs
-    $request_uri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';
-    $is_login_request = (strpos($request_uri, 'wp-login.php') !== false);
-    
-    if (!$is_login_page && !$is_login_request) {
-        return;
+
+    // If logged in → redirect to dashboard
+    if (is_user_logged_in()) {
+        wp_safe_redirect(admin_url());
+        exit;
     }
-    
-    // Sanitize the requested action
+
     $action = isset($_GET['action']) ? sanitize_text_field($_GET['action']) : '';
-    
-    // Check for critical GET parameters
-    if (isset($_GET['reauth']) || isset($_GET['checkemail']) || isset($_GET['loggedout'])) {
-        return;
-    }
-    
-    // List of actions WordPress should handle
-    $wp_allowed_actions = array(
+
+    // Let WordPress handle these
+    $wp_allowed = array(
         'postpass',
         'logout',
         'lostpassword',
@@ -120,119 +94,26 @@ function custom_login_override() {
         'resetpass',
         'rp',
         'confirm_admin_email',
+        'login' // WP internal login
     );
-    
-    // Allow internal WP actions to bypass the custom template
-    if (in_array($action, $wp_allowed_actions, true)) {
+
+    // Allow POST login attempts
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         return;
     }
-    
-    // Check if we should load the custom template (only GET requests with no action or 'login' action)
-    $is_default_view = (empty($action) || $action === 'login') && $_SERVER['REQUEST_METHOD'] === 'GET';
-    
-    if ($is_default_view) {
-        // Try child theme first
-        $custom_login_file = get_stylesheet_directory() . '/custom-login.php';
-        
-        // Fallback to parent theme
-        if (!file_exists($custom_login_file)) {
-            $custom_login_file = get_template_directory() . '/custom-login.php';
-        }
-        
-        // Load custom login page if file exists
-        if (file_exists($custom_login_file)) {
-            require $custom_login_file;
-            exit;
-        } else {
-            // File not found - log error for debugging
-            error_log('Custom login file not found at: ' . $custom_login_file);
-        }
-    }
-    
-    return; 
-}
-// Use login_head hook as backup if login_init doesn't work on your setup
-add_action('login_init', 'custom_login_override', 1);
-add_action('login_head', 'custom_login_override_backup', 1);
-add_action('login_enqueue_scripts', 'custom_login_override_backup', 1);
 
-function custom_login_override_backup() {
-    // This runs if login_init didn't catch it
-    // Prevent infinite loop
-    static $already_run = false;
-    if ($already_run) {
+    // Allow internal WP actions
+    if (in_array($action, $wp_allowed, true)) {
         return;
     }
-    $already_run = true;
-    
-    custom_login_override();
-}
 
-// Handle AJAX login
-add_action('wp_ajax_nopriv_custom_ajax_login', 'custom_ajax_login_handler');
-function custom_ajax_login_handler() {
-    // Verify nonce
-    if (!isset($_POST['nonce']) || !wp_verify_nonce($_POST['nonce'], 'custom_login_action')) {
-        wp_send_json_error(array('message' => 'Security check failed. Please refresh the page and try again.'));
-    }
-    
-    // Sanitize inputs
-    $username = sanitize_user($_POST['username']);
-    $password = $_POST['password'];
-    $remember = isset($_POST['remember']) && $_POST['remember'] === 'true';
-    
-    // Prepare credentials
-    $creds = array(
-        'user_login'    => $username,
-        'user_password' => $password,
-        'remember'      => $remember,
-    );
-    
-    // Attempt login
-    $user = wp_signon($creds, false);
-    
-    if (is_wp_error($user)) {
-        wp_send_json_error(array('message' => $user->get_error_message()));
-    } else {
-        wp_send_json_success(array(
-            'message' => 'Login successful!',
-            'redirect_url' => admin_url(),
-            'user_name' => $user->display_name
-        ));
-    }
+    // Show custom login page
+    require get_template_directory() . '/custom-login.php';
+    exit;
 }
+add_action('login_init', 'custom_login_override');
 
-// Redirect already logged-in users
-add_action('init', 'redirect_logged_in_users_from_login');
-function redirect_logged_in_users_from_login() {
-    global $pagenow;
-    
-    if ($pagenow === 'wp-login.php' && is_user_logged_in() && !isset($_GET['action'])) {
-        wp_safe_redirect(admin_url());
-        exit;
-    }
-}
 
-// Add this to test if the function is being called
-add_action('init', 'test_custom_login_setup');
-function test_custom_login_setup() {
-    // Visit yourdomain.com/?test_login_setup=1 to see if files exist
-    if (isset($_GET['test_login_setup'])) {
-        echo "<h2>Custom Login Setup Test</h2>";
-        echo "<p><strong>Site URL:</strong> " . site_url() . "</p>";
-        echo "<p><strong>Home URL:</strong> " . home_url() . "</p>";
-        echo "<p><strong>Login URL:</strong> " . wp_login_url() . "</p>";
-        echo "<p><strong>Current Page:</strong> " . (isset($GLOBALS['pagenow']) ? $GLOBALS['pagenow'] : 'Unknown') . "</p>";
-        echo "<p><strong>Request URI:</strong> " . $_SERVER['REQUEST_URI'] . "</p>";
-        echo "<p><strong>Child Theme Path:</strong> " . get_stylesheet_directory() . "</p>";
-        echo "<p><strong>Custom Login File Exists (Child):</strong> " . (file_exists(get_stylesheet_directory() . '/custom-login.php') ? 'YES ✓' : 'NO ✗') . "</p>";
-        echo "<p><strong>Parent Theme Path:</strong> " . get_template_directory() . "</p>";
-        echo "<p><strong>Custom Login File Exists (Parent):</strong> " . (file_exists(get_template_directory() . '/custom-login.php') ? 'YES ✓' : 'NO ✗') . "</p>";
-        echo "<p><strong>AJAX Handler Registered:</strong> " . (has_action('wp_ajax_nopriv_custom_ajax_login') ? 'YES ✓' : 'NO ✗') . "</p>";
-        echo "<hr><p><strong>Try this login URL:</strong> <a href='" . wp_login_url() . "'>" . wp_login_url() . "</a></p>";
-        exit;
-    }
-}
  
 
 class WP_Translate_Nav_Menu_Walker extends Walker_Nav_Menu {
