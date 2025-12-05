@@ -72,31 +72,23 @@ include_once 'dashboard.php';
 
 
 
-
 function custom_login_override() {
     global $pagenow;
-
-    // Trigger ONLY on wp-login.php
+    
+    // Only trigger on wp-login.php
     if ($pagenow !== 'wp-login.php') {
         return;
     }
-
-    // If already logged in → redirect to dashboard
-    if (is_user_logged_in()) {
-        wp_safe_redirect(admin_url());
-        exit;
-    }
-
+    
     // Sanitize the requested action
     $action = isset($_GET['action']) ? sanitize_text_field($_GET['action']) : '';
-
-    // Check for critical GET parameters like 'reauth' or 'checkemail' that WP needs to handle internally.
-    // If these are present, we let WP use the default page to prevent redirect loops.
-    if (isset($_GET['reauth']) || isset($_GET['checkemail'])) {
+    
+    // Check for critical GET parameters
+    if (isset($_GET['reauth']) || isset($_GET['checkemail']) || isset($_GET['loggedout'])) {
         return;
     }
-
-    // List of actions that WordPress should handle (e.g., password reset, logout)
+    
+    // List of actions WordPress should handle
     $wp_allowed_actions = array(
         'postpass',
         'logout',
@@ -105,34 +97,49 @@ function custom_login_override() {
         'resetpass',
         'rp',
         'confirm_admin_email',
-        // 'login' is intentionally omitted here to be handled explicitly below as the default view.
     );
-
-    // 1. Allow internal WP actions to bypass the custom template.
-    // Let WP handle everything that is NOT a primary login view or a POST submission.
+    
+    // Allow internal WP actions to bypass the custom template
     if (in_array($action, $wp_allowed_actions, true)) {
         return;
     }
-
-    // 2. Check if we should load the custom template.
-    // We ONLY load the custom page if it is the default login view (empty action) OR a POST submission.
+    
+    // Check if we should load the custom template
     $is_default_view = empty($action) && $_SERVER['REQUEST_METHOD'] === 'GET';
-    $is_login_post = $_SERVER['REQUEST_METHOD'] === 'POST';
-
+    $is_login_post = $_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['custom_login_nonce']);
+    
     if ($is_default_view || $is_login_post) {
-        // Show custom login page and exit execution to prevent WP loading its own form.
+        // Show custom login page
         require get_template_directory() . '/custom-login.php';
         exit;
     }
-
-    // If we reach here (e.g., a GET request with an unrecognized action),
-    // we let WordPress proceed (return;) to handle it gracefully, rather than forcing an exit.
+    
     return; 
 }
 add_action('login_init', 'custom_login_override');
 
-// ... other functions in your functions.php file ...
+// Handle the login redirect properly
+add_filter('login_redirect', 'custom_login_redirect', 10, 3);
+function custom_login_redirect($redirect_to, $request, $user) {
+    // If login was successful and no specific redirect was requested
+    if (isset($user->roles) && is_array($user->roles)) {
+        // Redirect to admin dashboard
+        return admin_url();
+    }
+    return $redirect_to;
+}
 
+// Prevent WordPress from redirecting to wp-login.php when already logged in
+add_action('init', 'redirect_logged_in_users_from_login');
+function redirect_logged_in_users_from_login() {
+    global $pagenow;
+    
+    // If user is on wp-login.php and already logged in
+    if ($pagenow === 'wp-login.php' && is_user_logged_in() && !isset($_GET['action'])) {
+        wp_safe_redirect(admin_url());
+        exit;
+    }
+}
  
 
 class WP_Translate_Nav_Menu_Walker extends Walker_Nav_Menu {
