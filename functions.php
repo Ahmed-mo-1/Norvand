@@ -106,9 +106,8 @@ function custom_login_override() {
     
     // Check if we should load the custom template
     $is_default_view = empty($action) && $_SERVER['REQUEST_METHOD'] === 'GET';
-    $is_login_post = $_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['custom_login_nonce']);
     
-    if ($is_default_view || $is_login_post) {
+    if ($is_default_view) {
         // Show custom login page
         require get_template_directory() . '/custom-login.php';
         exit;
@@ -118,28 +117,51 @@ function custom_login_override() {
 }
 add_action('login_init', 'custom_login_override');
 
-// Handle the login redirect properly
-add_filter('login_redirect', 'custom_login_redirect', 10, 3);
-function custom_login_redirect($redirect_to, $request, $user) {
-    // If login was successful and no specific redirect was requested
-    if (isset($user->roles) && is_array($user->roles)) {
-        // Redirect to admin dashboard
-        return admin_url();
+// Handle AJAX login
+add_action('wp_ajax_nopriv_custom_ajax_login', 'custom_ajax_login_handler');
+function custom_ajax_login_handler() {
+    // Verify nonce
+    if (!isset($_POST['nonce']) || !wp_verify_nonce($_POST['nonce'], 'custom_login_action')) {
+        wp_send_json_error(array('message' => 'Security check failed. Please refresh the page and try again.'));
     }
-    return $redirect_to;
+    
+    // Sanitize inputs
+    $username = sanitize_user($_POST['username']);
+    $password = $_POST['password'];
+    $remember = isset($_POST['remember']) && $_POST['remember'] === 'true';
+    
+    // Prepare credentials
+    $creds = array(
+        'user_login'    => $username,
+        'user_password' => $password,
+        'remember'      => $remember,
+    );
+    
+    // Attempt login
+    $user = wp_signon($creds, false);
+    
+    if (is_wp_error($user)) {
+        wp_send_json_error(array('message' => $user->get_error_message()));
+    } else {
+        wp_send_json_success(array(
+            'message' => 'Login successful!',
+            'redirect_url' => admin_url(),
+            'user_name' => $user->display_name
+        ));
+    }
 }
 
-// Prevent WordPress from redirecting to wp-login.php when already logged in
+// Redirect already logged-in users
 add_action('init', 'redirect_logged_in_users_from_login');
 function redirect_logged_in_users_from_login() {
     global $pagenow;
     
-    // If user is on wp-login.php and already logged in
     if ($pagenow === 'wp-login.php' && is_user_logged_in() && !isset($_GET['action'])) {
         wp_safe_redirect(admin_url());
         exit;
     }
 }
+
  
 
 class WP_Translate_Nav_Menu_Walker extends Walker_Nav_Menu {
