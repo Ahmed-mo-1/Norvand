@@ -98,23 +98,30 @@ function custom_login_override() {
         'resetpass',
         'rp',
         'confirm_admin_email',
-        'login' // Internal WP login action
+        // 'login' is intentionally omitted here to be handled explicitly below as the default view.
     );
 
-    // 1. Allow POST login attempts (handled by the custom-login.php file)
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        // We let the script continue to include custom-login.php below,
-        // where the POST logic is executed.
-    }
-
-    // 2. Allow internal WP actions to bypass the custom template
-    else if (in_array($action, $wp_allowed_actions, true)) {
+    // 1. Allow internal WP actions to bypass the custom template.
+    // Let WP handle everything that is NOT a primary login view or a POST submission.
+    if (in_array($action, $wp_allowed_actions, true)) {
         return;
     }
 
-    // 3. If none of the above, show the custom login page
-    require get_template_directory() . '/custom-login.php';
-    exit; // Stop further WP execution to prevent loading the default login form
+    // 2. Check if we should load the custom template.
+    // We ONLY load the custom page if it is the default login view (empty action) OR a POST submission.
+    // This explicit check helps prevent redirect loops on subdirectory/multisite installs.
+    $is_default_view = empty($action) && $_SERVER['REQUEST_METHOD'] === 'GET';
+    $is_login_post = $_SERVER['REQUEST_METHOD'] === 'POST';
+
+    if ($is_default_view || $is_login_post) {
+        // Show custom login page and exit execution to prevent WP loading its own form.
+        require get_template_directory() . '/custom-login.php';
+        exit;
+    }
+
+    // If we reach here (e.g., a GET request with an unrecognized action),
+    // we let WordPress proceed (return;) to handle it gracefully, rather than forcing an exit.
+    return; 
 }
 add_action('login_init', 'custom_login_override');
 
