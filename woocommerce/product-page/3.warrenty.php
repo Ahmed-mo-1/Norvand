@@ -3,7 +3,7 @@
 <div class="container-2col" style="flex-direction : row-reverse">
 
 <div>
-<img width="1094" height="684" src="https://norvandshop.com/wp-content/uploads/2024/07/2-5.webp" alt="warrenty-banner" loading="lazy">
+<img width="1094" height="684" src="https://ahmadworks.pro/norvand/wp-content/uploads/2025/11/3-1.webp" alt="warrenty-banner" loading="lazy">
 </div>
 
 
